@@ -10,11 +10,19 @@ using System.Windows.Forms;
 
 namespace SistemaRestify
 {
-    public partial class Form1 : Form
+    public partial class FrmLoginMesero : Form
     {
-        public Form1()
+
+        public FrmLoginMesero()
         {
             InitializeComponent();
+        }
+
+        private void BtnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+            FrmLogin fl = new FrmLogin();
+            fl.Show();
         }
     }
 }
