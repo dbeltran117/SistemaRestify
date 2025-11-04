@@ -15,3 +15,4 @@ C:\Users\diego\source\repos\SistemaRestify\SistemaRestify\bin\Debug\MindFusion.L
 C:\Users\diego\source\repos\SistemaRestify\SistemaRestify\bin\Debug\MindFusion.Svg.dll
 C:\Users\diego\source\repos\SistemaRestify\SistemaRestify\bin\Debug\MindFusion.Keyboard.WinForms.xml
 C:\Users\diego\source\repos\SistemaRestify\SistemaRestify\obj\Debug\SistemaR.42E9ED74.Up2Date
+C:\Users\diego\source\repos\SistemaRestify\SistemaRestify\obj\Debug\SistemaRestify.FrmTeclado.resources

@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\diego\\source\\repos\\SistemaRestify\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|C:\\Users\\diego\\source\\repos\\SistemaRestify\\sistemarestify\\frmteclado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|solutionrelative:sistemarestify\\frmteclado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|C:\\Users\\diego\\source\\repos\\SistemaRestify\\sistemarestify\\frmteclado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|solutionrelative:sistemarestify\\frmteclado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|c:\\users\\diego\\source\\repos\\sistemarestify\\sistemarestify\\frmloginmesero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|solutionrelative:sistemarestify\\frmloginmesero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|C:\\Users\\diego\\source\\repos\\SistemaRestify\\sistemarestify\\frmloginmesero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|solutionrelative:sistemarestify\\frmloginmesero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|C:\\Users\\diego\\source\\repos\\SistemaRestify\\sistemarestify\\frmloginmesero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|solutionrelative:sistemarestify\\frmloginmesero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|c:\\users\\diego\\source\\repos\\sistemarestify\\sistemarestify\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|solutionrelative:sistemarestify\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|C:\\Users\\diego\\source\\repos\\SistemaRestify\\sistemarestify\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|solutionrelative:sistemarestify\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1215D1CA-0F00-464B-97D6-197987E12275}|Manejadores\\Manejadores.csproj|C:\\Users\\diego\\source\\repos\\SistemaRestify\\manejadores\\manejadorusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1215D1CA-0F00-464B-97D6-197987E12275}|Manejadores\\Manejadores.csproj|solutionrelative:manejadores\\manejadorusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|C:\\Users\\diego\\source\\repos\\SistemaRestify\\sistemarestify\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|solutionrelative:sistemarestify\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|C:\\Users\\diego\\source\\repos\\SistemaRestify\\sistemarestify\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|solutionrelative:sistemarestify\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7AEDB917-6AC1-4B47-B3FE-5059F8AB6BC7}|AccesoDatos\\AccesoDatos.csproj|C:\\Users\\diego\\source\\repos\\SistemaRestify\\accesodatos\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,19 +63,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FrmTeclado.cs",
+              "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\SistemaRestify\\SistemaRestify\\FrmTeclado.cs",
+              "RelativeDocumentMoniker": "SistemaRestify\\FrmTeclado.cs",
+              "ToolTip": "C:\\Users\\diego\\source\\repos\\SistemaRestify\\SistemaRestify\\FrmTeclado.cs",
+              "RelativeToolTip": "SistemaRestify\\FrmTeclado.cs",
+              "ViewState": "AgIAAP8AAAAAAAAAAADgvw4BAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T16:37:01.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmTeclado.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\SistemaRestify\\SistemaRestify\\FrmTeclado.cs",
+              "RelativeDocumentMoniker": "SistemaRestify\\FrmTeclado.cs",
+              "ToolTip": "C:\\Users\\diego\\source\\repos\\SistemaRestify\\SistemaRestify\\FrmTeclado.cs [Design]",
+              "RelativeToolTip": "SistemaRestify\\FrmTeclado.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T16:12:44.065Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "FrmLoginMesero.cs",
               "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\SistemaRestify\\SistemaRestify\\FrmLoginMesero.cs",
               "RelativeDocumentMoniker": "SistemaRestify\\FrmLoginMesero.cs",
               "ToolTip": "C:\\Users\\diego\\source\\repos\\SistemaRestify\\SistemaRestify\\FrmLoginMesero.cs",
               "RelativeToolTip": "SistemaRestify\\FrmLoginMesero.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAD4vw4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAD4vxYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-30T04:30:41.71Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FrmLoginMesero.cs [Design]",
               "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\SistemaRestify\\SistemaRestify\\FrmLoginMesero.cs",
               "RelativeDocumentMoniker": "SistemaRestify\\FrmLoginMesero.cs",
@@ -85,14 +118,13 @@
               "RelativeDocumentMoniker": "SistemaRestify\\FrmLogin.cs",
               "ToolTip": "C:\\Users\\diego\\source\\repos\\SistemaRestify\\SistemaRestify\\FrmLogin.cs",
               "RelativeToolTip": "SistemaRestify\\FrmLogin.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBwAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA8wBwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T15:54:52.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T15:54:52.61Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Base.cs",
               "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\SistemaRestify\\AccesoDatos\\Base.cs",
               "RelativeDocumentMoniker": "AccesoDatos\\Base.cs",
@@ -100,33 +132,30 @@
               "RelativeToolTip": "AccesoDatos\\Base.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T15:22:38.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T15:22:38.803Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ManejadorUsuarios.cs",
               "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\SistemaRestify\\Manejadores\\ManejadorUsuarios.cs",
               "RelativeDocumentMoniker": "Manejadores\\ManejadorUsuarios.cs",
               "ToolTip": "C:\\Users\\diego\\source\\repos\\SistemaRestify\\Manejadores\\ManejadorUsuarios.cs",
               "RelativeToolTip": "Manejadores\\ManejadorUsuarios.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAYwBkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T15:19:52.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T15:19:52.268Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "FrmLogin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\diego\\source\\repos\\SistemaRestify\\SistemaRestify\\FrmLogin.cs",
               "RelativeDocumentMoniker": "SistemaRestify\\FrmLogin.cs",
               "ToolTip": "C:\\Users\\diego\\source\\repos\\SistemaRestify\\SistemaRestify\\FrmLogin.cs [Design]",
               "RelativeToolTip": "SistemaRestify\\FrmLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T15:19:34.781Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-10-29T15:19:34.781Z"
             }
           ]
         }
