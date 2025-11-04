@@ -550,6 +550,7 @@
             this.Btn6.TabIndex = 38;
             this.Btn6.Text = "6";
             this.Btn6.UseVisualStyleBackColor = false;
+            this.Btn6.Click += new System.EventHandler(this.Btn6_Click);
             // 
             // Btn9
             // 
@@ -564,6 +565,7 @@
             this.Btn9.TabIndex = 37;
             this.Btn9.Text = "9";
             this.Btn9.UseVisualStyleBackColor = false;
+            this.Btn9.Click += new System.EventHandler(this.Btn9_Click);
             // 
             // Btn2
             // 
@@ -578,6 +580,7 @@
             this.Btn2.TabIndex = 36;
             this.Btn2.Text = "2";
             this.Btn2.UseVisualStyleBackColor = false;
+            this.Btn2.Click += new System.EventHandler(this.Btn2_Click);
             // 
             // Btn5
             // 
@@ -592,6 +595,7 @@
             this.Btn5.TabIndex = 35;
             this.Btn5.Text = "5";
             this.Btn5.UseVisualStyleBackColor = false;
+            this.Btn5.Click += new System.EventHandler(this.Btn5_Click);
             // 
             // Btn8
             // 
@@ -606,6 +610,7 @@
             this.Btn8.TabIndex = 34;
             this.Btn8.Text = "8";
             this.Btn8.UseVisualStyleBackColor = false;
+            this.Btn8.Click += new System.EventHandler(this.Btn8_Click);
             // 
             // Btn1
             // 
@@ -620,6 +625,7 @@
             this.Btn1.TabIndex = 33;
             this.Btn1.Text = "1";
             this.Btn1.UseVisualStyleBackColor = false;
+            this.Btn1.Click += new System.EventHandler(this.Btn1_Click);
             // 
             // Btn4
             // 
@@ -634,6 +640,7 @@
             this.Btn4.TabIndex = 32;
             this.Btn4.Text = "4";
             this.Btn4.UseVisualStyleBackColor = false;
+            this.Btn4.Click += new System.EventHandler(this.Btn4_Click);
             // 
             // Btn7
             // 
@@ -648,6 +655,7 @@
             this.Btn7.TabIndex = 31;
             this.Btn7.Text = "7";
             this.Btn7.UseVisualStyleBackColor = false;
+            this.Btn7.Click += new System.EventHandler(this.Btn7_Click);
             // 
             // Btn3
             // 
@@ -662,6 +670,7 @@
             this.Btn3.TabIndex = 39;
             this.Btn3.Text = "3";
             this.Btn3.UseVisualStyleBackColor = false;
+            this.Btn3.Click += new System.EventHandler(this.Btn3_Click);
             // 
             // Btn0
             // 
@@ -676,6 +685,7 @@
             this.Btn0.TabIndex = 40;
             this.Btn0.Text = "0";
             this.Btn0.UseVisualStyleBackColor = false;
+            this.Btn0.Click += new System.EventHandler(this.Btn0_Click);
             // 
             // BtnSalir
             // 
@@ -744,7 +754,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "FrmTeclado";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmTeclado";
             this.ResumeLayout(false);
 

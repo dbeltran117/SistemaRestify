@@ -28,12 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLogin));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.BtnSalir = new System.Windows.Forms.Button();
             this.BtnAdministrativo = new System.Windows.Forms.Button();
             this.BtnMeseros = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.BtnSalir = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -58,19 +60,6 @@
             this.label1.Size = new System.Drawing.Size(64, 26);
             this.label1.TabIndex = 1;
             this.label1.Text = "Inicio";
-            // 
-            // BtnSalir
-            // 
-            this.BtnSalir.BackColor = System.Drawing.Color.Transparent;
-            this.BtnSalir.FlatAppearance.BorderSize = 0;
-            this.BtnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BtnSalir.Location = new System.Drawing.Point(39, 442);
-            this.BtnSalir.Name = "BtnSalir";
-            this.BtnSalir.Size = new System.Drawing.Size(64, 64);
-            this.BtnSalir.TabIndex = 0;
-            this.BtnSalir.Text = "Salir";
-            this.BtnSalir.UseVisualStyleBackColor = false;
-            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
             // BtnAdministrativo
             // 
@@ -103,11 +92,35 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(280, 51);
+            this.pictureBox1.Location = new System.Drawing.Point(285, 26);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(302, 176);
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
+            // 
+            // BtnSalir
+            // 
+            this.BtnSalir.BackColor = System.Drawing.Color.Transparent;
+            this.BtnSalir.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnSalir.BackgroundImage")));
+            this.BtnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BtnSalir.FlatAppearance.BorderSize = 0;
+            this.BtnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnSalir.Location = new System.Drawing.Point(19, 442);
+            this.BtnSalir.Name = "BtnSalir";
+            this.BtnSalir.Size = new System.Drawing.Size(64, 64);
+            this.BtnSalir.TabIndex = 0;
+            this.BtnSalir.UseVisualStyleBackColor = false;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
+            this.label2.Location = new System.Drawing.Point(297, 232);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(290, 26);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Seleccione el tipo de usuario";
             // 
             // FrmLogin
             // 
@@ -115,6 +128,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(252)))), ((int)(((byte)(228)))));
             this.ClientSize = new System.Drawing.Size(807, 513);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.BtnMeseros);
             this.Controls.Add(this.BtnAdministrativo);
@@ -129,17 +143,19 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button BtnSalir;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button BtnAdministrativo;
         private System.Windows.Forms.Button BtnMeseros;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button BtnSalir;
+        private System.Windows.Forms.Label label2;
     }
 }
 
