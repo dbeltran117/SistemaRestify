@@ -64,9 +64,9 @@
             this.BtnSalir.BackColor = System.Drawing.Color.Transparent;
             this.BtnSalir.FlatAppearance.BorderSize = 0;
             this.BtnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BtnSalir.Location = new System.Drawing.Point(39, 442);
+            this.BtnSalir.Location = new System.Drawing.Point(19, 468);
             this.BtnSalir.Name = "BtnSalir";
-            this.BtnSalir.Size = new System.Drawing.Size(64, 64);
+            this.BtnSalir.Size = new System.Drawing.Size(64, 38);
             this.BtnSalir.TabIndex = 0;
             this.BtnSalir.Text = "Salir";
             this.BtnSalir.UseVisualStyleBackColor = false;
