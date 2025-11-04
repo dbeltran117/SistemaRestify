@@ -25,9 +25,9 @@ namespace Manejadores
             b.Comando($"CALL p_deleteUsuarios({idUsuario})");
         }
 
-        public bool Validar(TextBox usuario, TextBox clave)
+        public bool ValidarMeseros(TextBox usuario, TextBox clave) 
         {
-            DataRow dr = b.Consultar($"call p_validar('{usuario.Text}','{Sha1(clave.Text)}')", "usuarios").Tables[0].Rows[0];
+            DataRow dr = b.Consultar($"call p_validarMeseros('{usuario.Text}','{Sha1(clave.Text)}')", "usuarios").Tables[0].Rows[0];
             if (dr["rs"].Equals("Ac3ptad0"))
             {
                 return true;
@@ -37,6 +37,30 @@ namespace Manejadores
                 return false;
             }
         }
+
+        public bool ValidarAdmin(TextBox usuario, TextBox clave)
+        {
+            DataRow dr = b.Consultar($"call p_validarAdmin('{usuario.Text}','{Sha1(clave.Text)}')", "usuarios").Tables[0].Rows[0];
+            if (dr["rs"].Equals("Ac3ptad0"))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public void VerUsuarioMesero(string usuario,Label useract)
+        {
+            DataSet ds = b.Consultar($"select nombre from usuarios where nombre = '{usuario}' AND tipoUser = 'Mesero'", "usuarios");
+            if (ds.Tables[0].Rows.Count > 0)
+            {
+                usuario = ds.Tables[0].Rows[0]["nombre"].ToString();
+                useract.Text = usuario;
+            }
+        }
+
         public static string Sha1(string texto)
         {
             SHA1 sha1 = SHA1CryptoServiceProvider.Create();
