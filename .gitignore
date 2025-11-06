@@ -1,0 +1,11 @@
+ECHO est� activado.
+# Carpetas y archivos temporales
+.vs/
+bin/
+obj/
+*.suo
+*.user
+*.pdb
+*.cache
+*.tlog
+*.log
