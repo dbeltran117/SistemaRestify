@@ -34,3 +34,11 @@ C:\Users\User\source\repos\dbeltran117\SistemaRestify\SistemaRestify\obj\Debug\S
 C:\Users\User\source\repos\dbeltran117\SistemaRestify\SistemaRestify\obj\Debug\SistemaRestify.csproj.CopyComplete
 C:\Users\User\source\repos\dbeltran117\SistemaRestify\SistemaRestify\obj\Debug\SistemaRestify.exe
 C:\Users\User\source\repos\dbeltran117\SistemaRestify\SistemaRestify\obj\Debug\SistemaRestify.pdb
+C:\Users\User\source\repos\dbeltran117\SistemaRestify\SistemaRestify\obj\Debug\SistemaRestify.FrmBuscarCliente.resources
+C:\Users\User\source\repos\dbeltran117\SistemaRestify\SistemaRestify\obj\Debug\SistemaRestify.FrmPedidoRapido.resources
+C:\Users\User\source\repos\dbeltran117\SistemaRestify\SistemaRestify\obj\Debug\SistemaRestify.FrmReservaciones.resources
+C:\Users\User\source\repos\dbeltran117\SistemaRestify\SistemaRestify\obj\Debug\SistemaRestify.FrmCapturarPedido.resources
+C:\Users\User\source\repos\dbeltran117\SistemaRestify\SistemaRestify\obj\Debug\SistemaRestify.FrmDetalleCuenta.resources
+C:\Users\User\source\repos\dbeltran117\SistemaRestify\SistemaRestify\obj\Debug\SistemaRestify.FrmMenuOpciones.resources
+C:\Users\User\source\repos\dbeltran117\SistemaRestify\SistemaRestify\obj\Debug\SistemaRestify.FrmPedidos.resources
+C:\Users\User\source\repos\dbeltran117\SistemaRestify\SistemaRestify\obj\Debug\SistemaRestify.FrmCambiarMesero.resources

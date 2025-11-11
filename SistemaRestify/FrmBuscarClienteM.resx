@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="BtnBuscarCliemte.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="BtnBuscarCliente.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAeCAYAAAAl+Z4RAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAAAj1JREFUSEtjGAXDCbCAiIAAK+XeqYVbtx2a/PXAmZm/Zy6qvpyYHegDVsHAwAyl
+        DgAACw4BQL7hQQAAAj1JREFUSEtjGAXDCbCAiIAAK+XeqYVbtx2a/PXAmZm/Zy6qvpyYHegDVsHAwAyl
         MQBY855jM9Y/+bTjf2tvdptvsLW2k6excmFJRNSp64tfnr+7/J2DgwNIHVgtBth3bPaGY5fnvQIyGZEw
         CIDpZetaZt99ueEHWATdJa4+5qpPP+z4D+VicyZYbMfhKednLq6ZBxZBBrMW1m5t6clqBzKZgBiXP5kd
         vEwlniAsQoDNe/q/+Ic6axVWRBUGBTkrAYVgzscAt56v/+8WaCUG5UIAMLR/mbmZKU6YXjS5pjEpGSiE

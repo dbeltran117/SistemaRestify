@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmBuscarCliente));
             this.label2 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.BtnBuscarProducto = new System.Windows.Forms.Button();
+            this.BtnBuscarCliemte = new System.Windows.Forms.Button();
             this.BtnCancelar = new System.Windows.Forms.Button();
             this.BtnAceptar = new System.Windows.Forms.Button();
             this.CmbCliente = new System.Windows.Forms.ComboBox();
@@ -59,16 +59,16 @@
             this.label11.TabIndex = 9;
             this.label11.Text = "Buscar Cliente:";
             // 
-            // BtnBuscarProducto
+            // BtnBuscarCliemte
             // 
-            this.BtnBuscarProducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(62)))), ((int)(((byte)(25)))));
-            this.BtnBuscarProducto.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnBuscarProducto.BackgroundImage")));
-            this.BtnBuscarProducto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.BtnBuscarProducto.Location = new System.Drawing.Point(457, 73);
-            this.BtnBuscarProducto.Name = "BtnBuscarProducto";
-            this.BtnBuscarProducto.Size = new System.Drawing.Size(33, 34);
-            this.BtnBuscarProducto.TabIndex = 11;
-            this.BtnBuscarProducto.UseVisualStyleBackColor = false;
+            this.BtnBuscarCliemte.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(62)))), ((int)(((byte)(25)))));
+            this.BtnBuscarCliemte.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnBuscarCliemte.BackgroundImage")));
+            this.BtnBuscarCliemte.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.BtnBuscarCliemte.Location = new System.Drawing.Point(457, 73);
+            this.BtnBuscarCliemte.Name = "BtnBuscarCliemte";
+            this.BtnBuscarCliemte.Size = new System.Drawing.Size(33, 34);
+            this.BtnBuscarCliemte.TabIndex = 11;
+            this.BtnBuscarCliemte.UseVisualStyleBackColor = false;
             // 
             // BtnCancelar
             // 
@@ -111,7 +111,7 @@
             this.Controls.Add(this.CmbCliente);
             this.Controls.Add(this.BtnAceptar);
             this.Controls.Add(this.BtnCancelar);
-            this.Controls.Add(this.BtnBuscarProducto);
+            this.Controls.Add(this.BtnBuscarCliemte);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -127,7 +127,7 @@
 
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Button BtnBuscarProducto;
+        private System.Windows.Forms.Button BtnBuscarCliemte;
         private System.Windows.Forms.Button BtnCancelar;
         private System.Windows.Forms.Button BtnAceptar;
         private System.Windows.Forms.ComboBox CmbCliente;
