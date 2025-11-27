@@ -41,6 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cuentas.cs" />
+    <Compile Include="DetalleCuenta.cs" />
+    <Compile Include="DetallesEntradas.cs" />
+    <Compile Include="DetallesSalidas.cs" />
+    <Compile Include="Entradas.cs" />
+    <Compile Include="Mesas.cs" />
+    <Compile Include="Salidas.cs" />
     <Compile Include="Usuarios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

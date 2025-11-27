@@ -45,6 +45,8 @@ namespace SistemaRestify
 
         private void BtnEntrar_Click(object sender, EventArgs e)
         {
+            TxtUser.Text = TxtUser.Text.ToUpper();
+            TxtClave.Text = TxtClave.Text.ToUpper();
             if (mu.ValidarMeseros(TxtUser, TxtClave))
             {
                 usuarioActual = TxtUser.Text;

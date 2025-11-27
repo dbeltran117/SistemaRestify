@@ -350,5 +350,19 @@ namespace SistemaRestify
                 CampoDestino.Text += "0";
             }
         }
+
+        private void FrmTeclado_Load(object sender, EventArgs e)
+        {
+            this.StartPosition = FormStartPosition.Manual;
+
+            int pantallaAncho = Screen.PrimaryScreen.WorkingArea.Width;
+            int pantallaAlto = Screen.PrimaryScreen.WorkingArea.Height;
+
+            this.Location = new Point(
+                (pantallaAncho - this.Width) / 2,      // centrado horizontal
+                pantallaAlto - this.Height             // pegado abajo
+            );
+
+        }
     }
 }

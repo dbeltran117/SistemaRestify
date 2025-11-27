@@ -704,7 +704,7 @@
             // 
             // FrmTeclado
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 26F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(180)))), ((int)(((byte)(137)))));
             this.ClientSize = new System.Drawing.Size(1394, 484);
@@ -756,6 +756,7 @@
             this.Name = "FrmTeclado";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmTeclado";
+            this.Load += new System.EventHandler(this.FrmTeclado_Load);
             this.ResumeLayout(false);
 
         }

@@ -31,10 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLogin));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.BtnSalir = new System.Windows.Forms.Button();
             this.BtnAdministrativo = new System.Windows.Forms.Button();
             this.BtnMeseros = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.BtnSalir = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -61,43 +61,6 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Inicio";
             // 
-            // BtnAdministrativo
-            // 
-            this.BtnAdministrativo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(180)))), ((int)(((byte)(137)))));
-            this.BtnAdministrativo.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
-            this.BtnAdministrativo.FlatAppearance.BorderSize = 2;
-            this.BtnAdministrativo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnAdministrativo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(252)))), ((int)(((byte)(228)))));
-            this.BtnAdministrativo.Location = new System.Drawing.Point(168, 281);
-            this.BtnAdministrativo.Name = "BtnAdministrativo";
-            this.BtnAdministrativo.Size = new System.Drawing.Size(218, 58);
-            this.BtnAdministrativo.TabIndex = 1;
-            this.BtnAdministrativo.Text = "Administrativo";
-            this.BtnAdministrativo.UseVisualStyleBackColor = false;
-            // 
-            // BtnMeseros
-            // 
-            this.BtnMeseros.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(180)))), ((int)(((byte)(137)))));
-            this.BtnMeseros.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
-            this.BtnMeseros.FlatAppearance.BorderSize = 2;
-            this.BtnMeseros.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnMeseros.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(252)))), ((int)(((byte)(228)))));
-            this.BtnMeseros.Location = new System.Drawing.Point(485, 281);
-            this.BtnMeseros.Name = "BtnMeseros";
-            this.BtnMeseros.Size = new System.Drawing.Size(218, 58);
-            this.BtnMeseros.TabIndex = 2;
-            this.BtnMeseros.Text = "Meseros";
-            this.BtnMeseros.UseVisualStyleBackColor = false;
-            this.BtnMeseros.Click += new System.EventHandler(this.BtnMeseros_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(285, 26);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(302, 176);
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
             // BtnSalir
             // 
             this.BtnSalir.BackColor = System.Drawing.Color.Transparent;
@@ -112,11 +75,52 @@
             this.BtnSalir.UseVisualStyleBackColor = false;
             this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
+            // BtnAdministrativo
+            // 
+            this.BtnAdministrativo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(180)))), ((int)(((byte)(137)))));
+            this.BtnAdministrativo.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
+            this.BtnAdministrativo.FlatAppearance.BorderSize = 2;
+            this.BtnAdministrativo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnAdministrativo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(252)))), ((int)(((byte)(228)))));
+            this.BtnAdministrativo.Location = new System.Drawing.Point(168, 330);
+            this.BtnAdministrativo.Name = "BtnAdministrativo";
+            this.BtnAdministrativo.Size = new System.Drawing.Size(218, 58);
+            this.BtnAdministrativo.TabIndex = 1;
+            this.BtnAdministrativo.Text = "Administrativo";
+            this.BtnAdministrativo.UseVisualStyleBackColor = false;
+            this.BtnAdministrativo.Click += new System.EventHandler(this.BtnAdministrativo_Click);
+            // 
+            // BtnMeseros
+            // 
+            this.BtnMeseros.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(180)))), ((int)(((byte)(137)))));
+            this.BtnMeseros.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
+            this.BtnMeseros.FlatAppearance.BorderSize = 2;
+            this.BtnMeseros.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnMeseros.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(252)))), ((int)(((byte)(228)))));
+            this.BtnMeseros.Location = new System.Drawing.Point(484, 330);
+            this.BtnMeseros.Name = "BtnMeseros";
+            this.BtnMeseros.Size = new System.Drawing.Size(218, 58);
+            this.BtnMeseros.TabIndex = 2;
+            this.BtnMeseros.Text = "Meseros";
+            this.BtnMeseros.UseVisualStyleBackColor = false;
+            this.BtnMeseros.Click += new System.EventHandler(this.BtnMeseros_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(312, 34);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(251, 219);
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
-            this.label2.Location = new System.Drawing.Point(297, 232);
+            this.label2.Location = new System.Drawing.Point(294, 280);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(290, 26);
             this.label2.TabIndex = 4;

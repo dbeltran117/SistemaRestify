@@ -28,5 +28,12 @@ namespace SistemaRestify
             FrmLoginMesero flm = new FrmLoginMesero();
             flm.Show();
         }
+
+        private void BtnAdministrativo_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FrmLoginAdmin fla = new FrmLoginAdmin();
+            fla.Show();
+        }
     }
 }

@@ -32,7 +32,6 @@
             this.BtnSalir = new System.Windows.Forms.Button();
             this.PlMesas = new System.Windows.Forms.Panel();
             this.PlSeparador = new System.Windows.Forms.Panel();
-            this.PlMesasCerradas = new System.Windows.Forms.Panel();
             this.BtnAbrirMesa = new System.Windows.Forms.Button();
             this.BtnReservaciones = new System.Windows.Forms.Button();
             this.BtnVerPrecios = new System.Windows.Forms.Button();
@@ -40,6 +39,12 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.LblUsuario = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // BtnSalir
@@ -63,7 +68,7 @@
             this.PlMesas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
             this.PlMesas.Location = new System.Drawing.Point(224, 98);
             this.PlMesas.Name = "PlMesas";
-            this.PlMesas.Size = new System.Drawing.Size(1142, 311);
+            this.PlMesas.Size = new System.Drawing.Size(1142, 625);
             this.PlMesas.TabIndex = 1;
             // 
             // PlSeparador
@@ -73,15 +78,6 @@
             this.PlSeparador.Name = "PlSeparador";
             this.PlSeparador.Size = new System.Drawing.Size(1452, 5);
             this.PlSeparador.TabIndex = 2;
-            // 
-            // PlMesasCerradas
-            // 
-            this.PlMesasCerradas.AutoScroll = true;
-            this.PlMesasCerradas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
-            this.PlMesasCerradas.Location = new System.Drawing.Point(224, 415);
-            this.PlMesasCerradas.Name = "PlMesasCerradas";
-            this.PlMesasCerradas.Size = new System.Drawing.Size(1142, 308);
-            this.PlMesasCerradas.TabIndex = 2;
             // 
             // BtnAbrirMesa
             // 
@@ -98,6 +94,7 @@
             this.BtnAbrirMesa.Text = "Abrir Mesa";
             this.BtnAbrirMesa.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnAbrirMesa.UseVisualStyleBackColor = true;
+            this.BtnAbrirMesa.Click += new System.EventHandler(this.BtnAbrirMesa_Click);
             // 
             // BtnReservaciones
             // 
@@ -114,6 +111,7 @@
             this.BtnReservaciones.Text = "Reservaciones";
             this.BtnReservaciones.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnReservaciones.UseVisualStyleBackColor = true;
+            this.BtnReservaciones.Click += new System.EventHandler(this.BtnReservaciones_Click);
             // 
             // BtnVerPrecios
             // 
@@ -130,6 +128,7 @@
             this.BtnVerPrecios.Text = "Ver Precios";
             this.BtnVerPrecios.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnVerPrecios.UseVisualStyleBackColor = true;
+            this.BtnVerPrecios.Click += new System.EventHandler(this.BtnVerPrecios_Click);
             // 
             // BtnPedidos
             // 
@@ -146,6 +145,7 @@
             this.BtnPedidos.Text = "Pedidos";
             this.BtnPedidos.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnPedidos.UseVisualStyleBackColor = true;
+            this.BtnPedidos.Click += new System.EventHandler(this.BtnPedidos_Click);
             // 
             // panel1
             // 
@@ -162,25 +162,86 @@
             this.LblUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
             this.LblUsuario.Location = new System.Drawing.Point(1274, 22);
             this.LblUsuario.Name = "LblUsuario";
-            this.LblUsuario.Size = new System.Drawing.Size(62, 31);
+            this.LblUsuario.Size = new System.Drawing.Size(48, 25);
             this.LblUsuario.TabIndex = 9;
             this.LblUsuario.Text = "......";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
             this.label1.Location = new System.Drawing.Point(12, 98);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 31);
+            this.label1.Size = new System.Drawing.Size(156, 25);
             this.label1.TabIndex = 10;
-            this.label1.Text = "label1";
+            this.label1.Text = "Area: Comedor";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
+            this.label3.Location = new System.Drawing.Point(66, 341);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(110, 25);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "Ocupadas";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
+            this.label4.Location = new System.Drawing.Point(66, 255);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(127, 25);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "Reservadas";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
+            this.label5.Location = new System.Drawing.Point(66, 168);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(124, 25);
+            this.label5.TabIndex = 14;
+            this.label5.Text = "Disponibles";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(148)))), ((int)(((byte)(112)))));
+            this.panel2.Location = new System.Drawing.Point(17, 152);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(50, 50);
+            this.panel2.TabIndex = 15;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(236)))), ((int)(((byte)(201)))));
+            this.panel3.Location = new System.Drawing.Point(17, 242);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(50, 50);
+            this.panel3.TabIndex = 16;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(104)))), ((int)(((byte)(40)))));
+            this.panel4.Location = new System.Drawing.Point(17, 325);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(50, 50);
+            this.panel4.TabIndex = 16;
             // 
             // FrmPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 30F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(252)))), ((int)(((byte)(228)))));
             this.ClientSize = new System.Drawing.Size(1450, 800);
+            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LblUsuario);
             this.Controls.Add(this.panel1);
@@ -188,7 +249,6 @@
             this.Controls.Add(this.BtnVerPrecios);
             this.Controls.Add(this.BtnReservaciones);
             this.Controls.Add(this.BtnAbrirMesa);
-            this.Controls.Add(this.PlMesasCerradas);
             this.Controls.Add(this.PlSeparador);
             this.Controls.Add(this.PlMesas);
             this.Controls.Add(this.BtnSalir);
@@ -198,6 +258,7 @@
             this.Name = "FrmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmPrincipal";
+            this.Load += new System.EventHandler(this.FrmPrincipal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -208,7 +269,6 @@
         private System.Windows.Forms.Button BtnSalir;
         private System.Windows.Forms.Panel PlMesas;
         private System.Windows.Forms.Panel PlSeparador;
-        private System.Windows.Forms.Panel PlMesasCerradas;
         private System.Windows.Forms.Button BtnAbrirMesa;
         private System.Windows.Forms.Button BtnReservaciones;
         private System.Windows.Forms.Button BtnVerPrecios;
@@ -216,5 +276,11 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label LblUsuario;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel4;
     }
 }
