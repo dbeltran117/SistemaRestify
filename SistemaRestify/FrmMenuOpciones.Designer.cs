@@ -32,11 +32,9 @@
             this.BtnCapturar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.LblOpciones = new System.Windows.Forms.Label();
-            this.BtnConsultar = new System.Windows.Forms.Button();
-            this.BtnCambiarMesero = new System.Windows.Forms.Button();
-            this.BtnImprimirCuenta = new System.Windows.Forms.Button();
             this.BtnCerrarCuenta = new System.Windows.Forms.Button();
             this.BtnSalir = new System.Windows.Forms.Button();
+            this.BtnDividir = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,7 +45,7 @@
             this.BtnCapturar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.BtnCapturar.Font = new System.Drawing.Font("Lucida Bright", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCapturar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(245)))), ((int)(((byte)(225)))));
-            this.BtnCapturar.Location = new System.Drawing.Point(16, 112);
+            this.BtnCapturar.Location = new System.Drawing.Point(210, 112);
             this.BtnCapturar.Margin = new System.Windows.Forms.Padding(4);
             this.BtnCapturar.Name = "BtnCapturar";
             this.BtnCapturar.Size = new System.Drawing.Size(187, 127);
@@ -55,6 +53,7 @@
             this.BtnCapturar.Text = "Capturar";
             this.BtnCapturar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnCapturar.UseVisualStyleBackColor = false;
+            this.BtnCapturar.Click += new System.EventHandler(this.BtnCapturar_Click);
             // 
             // panel1
             // 
@@ -78,54 +77,6 @@
             this.LblOpciones.TabIndex = 0;
             this.LblOpciones.Text = "Opciones";
             // 
-            // BtnConsultar
-            // 
-            this.BtnConsultar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(180)))), ((int)(((byte)(137)))));
-            this.BtnConsultar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnConsultar.BackgroundImage")));
-            this.BtnConsultar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.BtnConsultar.Font = new System.Drawing.Font("Lucida Bright", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnConsultar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(245)))), ((int)(((byte)(225)))));
-            this.BtnConsultar.Location = new System.Drawing.Point(211, 112);
-            this.BtnConsultar.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnConsultar.Name = "BtnConsultar";
-            this.BtnConsultar.Size = new System.Drawing.Size(187, 127);
-            this.BtnConsultar.TabIndex = 8;
-            this.BtnConsultar.Text = "Consultar";
-            this.BtnConsultar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.BtnConsultar.UseVisualStyleBackColor = false;
-            // 
-            // BtnCambiarMesero
-            // 
-            this.BtnCambiarMesero.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(180)))), ((int)(((byte)(137)))));
-            this.BtnCambiarMesero.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnCambiarMesero.BackgroundImage")));
-            this.BtnCambiarMesero.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.BtnCambiarMesero.Font = new System.Drawing.Font("Lucida Bright", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCambiarMesero.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(245)))), ((int)(((byte)(225)))));
-            this.BtnCambiarMesero.Location = new System.Drawing.Point(405, 112);
-            this.BtnCambiarMesero.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnCambiarMesero.Name = "BtnCambiarMesero";
-            this.BtnCambiarMesero.Size = new System.Drawing.Size(187, 127);
-            this.BtnCambiarMesero.TabIndex = 9;
-            this.BtnCambiarMesero.Text = "Cambiar Mesero";
-            this.BtnCambiarMesero.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.BtnCambiarMesero.UseVisualStyleBackColor = false;
-            // 
-            // BtnImprimirCuenta
-            // 
-            this.BtnImprimirCuenta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(180)))), ((int)(((byte)(137)))));
-            this.BtnImprimirCuenta.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnImprimirCuenta.BackgroundImage")));
-            this.BtnImprimirCuenta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.BtnImprimirCuenta.Font = new System.Drawing.Font("Lucida Bright", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnImprimirCuenta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(245)))), ((int)(((byte)(225)))));
-            this.BtnImprimirCuenta.Location = new System.Drawing.Point(600, 112);
-            this.BtnImprimirCuenta.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnImprimirCuenta.Name = "BtnImprimirCuenta";
-            this.BtnImprimirCuenta.Size = new System.Drawing.Size(187, 127);
-            this.BtnImprimirCuenta.TabIndex = 10;
-            this.BtnImprimirCuenta.Text = "Imprimir Cuenta";
-            this.BtnImprimirCuenta.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.BtnImprimirCuenta.UseVisualStyleBackColor = false;
-            // 
             // BtnCerrarCuenta
             // 
             this.BtnCerrarCuenta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(180)))), ((int)(((byte)(137)))));
@@ -133,7 +84,7 @@
             this.BtnCerrarCuenta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.BtnCerrarCuenta.Font = new System.Drawing.Font("Lucida Bright", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCerrarCuenta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(245)))), ((int)(((byte)(225)))));
-            this.BtnCerrarCuenta.Location = new System.Drawing.Point(16, 246);
+            this.BtnCerrarCuenta.Location = new System.Drawing.Point(13, 113);
             this.BtnCerrarCuenta.Margin = new System.Windows.Forms.Padding(4);
             this.BtnCerrarCuenta.Name = "BtnCerrarCuenta";
             this.BtnCerrarCuenta.Size = new System.Drawing.Size(187, 127);
@@ -150,7 +101,7 @@
             this.BtnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.BtnSalir.Font = new System.Drawing.Font("Lucida Bright", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSalir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(245)))), ((int)(((byte)(225)))));
-            this.BtnSalir.Location = new System.Drawing.Point(600, 246);
+            this.BtnSalir.Location = new System.Drawing.Point(600, 112);
             this.BtnSalir.Margin = new System.Windows.Forms.Padding(4);
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(187, 127);
@@ -160,17 +111,32 @@
             this.BtnSalir.UseVisualStyleBackColor = false;
             this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
+            // BtnDividir
+            // 
+            this.BtnDividir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(180)))), ((int)(((byte)(137)))));
+            this.BtnDividir.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnDividir.BackgroundImage")));
+            this.BtnDividir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.BtnDividir.Font = new System.Drawing.Font("Lucida Bright", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnDividir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(245)))), ((int)(((byte)(225)))));
+            this.BtnDividir.Location = new System.Drawing.Point(405, 112);
+            this.BtnDividir.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnDividir.Name = "BtnDividir";
+            this.BtnDividir.Size = new System.Drawing.Size(187, 127);
+            this.BtnDividir.TabIndex = 13;
+            this.BtnDividir.Text = "Dividir Cuenta";
+            this.BtnDividir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnDividir.UseVisualStyleBackColor = false;
+            this.BtnDividir.Click += new System.EventHandler(this.BtnDividir_Click);
+            // 
             // FrmMenuOpciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(245)))), ((int)(((byte)(225)))));
-            this.ClientSize = new System.Drawing.Size(807, 394);
+            this.ClientSize = new System.Drawing.Size(807, 256);
+            this.Controls.Add(this.BtnDividir);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.BtnCerrarCuenta);
-            this.Controls.Add(this.BtnImprimirCuenta);
-            this.Controls.Add(this.BtnCambiarMesero);
-            this.Controls.Add(this.BtnConsultar);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.BtnCapturar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -187,11 +153,9 @@
         #endregion
         private System.Windows.Forms.Button BtnCapturar;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button BtnConsultar;
         private System.Windows.Forms.Label LblOpciones;
-        private System.Windows.Forms.Button BtnCambiarMesero;
-        private System.Windows.Forms.Button BtnImprimirCuenta;
         private System.Windows.Forms.Button BtnCerrarCuenta;
         private System.Windows.Forms.Button BtnSalir;
+        private System.Windows.Forms.Button BtnDividir;
     }
 }

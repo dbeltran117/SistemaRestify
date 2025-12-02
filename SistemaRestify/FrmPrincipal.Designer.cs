@@ -35,7 +35,6 @@
             this.BtnAbrirMesa = new System.Windows.Forms.Button();
             this.BtnReservaciones = new System.Windows.Forms.Button();
             this.BtnVerPrecios = new System.Windows.Forms.Button();
-            this.BtnPedidos = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.LblUsuario = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -130,23 +129,6 @@
             this.BtnVerPrecios.UseVisualStyleBackColor = true;
             this.BtnVerPrecios.Click += new System.EventHandler(this.BtnVerPrecios_Click);
             // 
-            // BtnPedidos
-            // 
-            this.BtnPedidos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnPedidos.FlatAppearance.BorderSize = 0;
-            this.BtnPedidos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnPedidos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
-            this.BtnPedidos.Image = ((System.Drawing.Image)(resources.GetObject("BtnPedidos.Image")));
-            this.BtnPedidos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnPedidos.Location = new System.Drawing.Point(629, 8);
-            this.BtnPedidos.Name = "BtnPedidos";
-            this.BtnPedidos.Size = new System.Drawing.Size(151, 52);
-            this.BtnPedidos.TabIndex = 7;
-            this.BtnPedidos.Text = "Pedidos";
-            this.BtnPedidos.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BtnPedidos.UseVisualStyleBackColor = true;
-            this.BtnPedidos.Click += new System.EventHandler(this.BtnPedidos_Click);
-            // 
             // panel1
             // 
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
@@ -162,7 +144,7 @@
             this.LblUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
             this.LblUsuario.Location = new System.Drawing.Point(1274, 22);
             this.LblUsuario.Name = "LblUsuario";
-            this.LblUsuario.Size = new System.Drawing.Size(48, 25);
+            this.LblUsuario.Size = new System.Drawing.Size(62, 31);
             this.LblUsuario.TabIndex = 9;
             this.LblUsuario.Text = "......";
             // 
@@ -172,7 +154,7 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
             this.label1.Location = new System.Drawing.Point(12, 98);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(156, 25);
+            this.label1.Size = new System.Drawing.Size(197, 31);
             this.label1.TabIndex = 10;
             this.label1.Text = "Area: Comedor";
             // 
@@ -182,7 +164,7 @@
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
             this.label3.Location = new System.Drawing.Point(66, 341);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(110, 25);
+            this.label3.Size = new System.Drawing.Size(138, 31);
             this.label3.TabIndex = 12;
             this.label3.Text = "Ocupadas";
             // 
@@ -192,7 +174,7 @@
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
             this.label4.Location = new System.Drawing.Point(66, 255);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(127, 25);
+            this.label4.Size = new System.Drawing.Size(160, 31);
             this.label4.TabIndex = 13;
             this.label4.Text = "Reservadas";
             // 
@@ -202,7 +184,7 @@
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
             this.label5.Location = new System.Drawing.Point(66, 168);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(124, 25);
+            this.label5.Size = new System.Drawing.Size(155, 31);
             this.label5.TabIndex = 14;
             this.label5.Text = "Disponibles";
             // 
@@ -232,7 +214,7 @@
             // 
             // FrmPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(252)))), ((int)(((byte)(228)))));
             this.ClientSize = new System.Drawing.Size(1450, 800);
@@ -245,7 +227,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LblUsuario);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.BtnPedidos);
             this.Controls.Add(this.BtnVerPrecios);
             this.Controls.Add(this.BtnReservaciones);
             this.Controls.Add(this.BtnAbrirMesa);
@@ -272,7 +253,6 @@
         private System.Windows.Forms.Button BtnAbrirMesa;
         private System.Windows.Forms.Button BtnReservaciones;
         private System.Windows.Forms.Button BtnVerPrecios;
-        private System.Windows.Forms.Button BtnPedidos;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label LblUsuario;
         private System.Windows.Forms.Label label1;

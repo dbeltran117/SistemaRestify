@@ -9,5 +9,6 @@ namespace Entidades
     public class Mesas
     {
         public string NombreMesa {  get; set; }
+        public string Etiqueta { get; set; }
     }
 }

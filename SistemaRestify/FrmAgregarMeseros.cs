@@ -32,15 +32,22 @@ namespace SistemaRestify
 
         private void BtnGuardar_Click(object sender, EventArgs e)
         {
-            if(TxtNombreMesero.Text == "")
+            try
             {
-                MessageBox.Show("Debe ingresar un nombre para el mesero", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                if (TxtNombreMesero.Text == "")
+                {
+                    MessageBox.Show("Debe ingresar un nombre para el mesero", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    mpa.AgregarMeseros(TxtNombreMesero.Text);
+                    TxtNombreMesero.Clear();
+                    mpa.MostrarMeseros($"select * from v_meseros where Estado = '{CmbEstado.Text}'", DtgMeseros, "meseros");
+                }
             }
-            else
+            catch (Exception)
             {
-                mpa.AgregarMeseros(TxtNombreMesero.Text);
-                TxtNombreMesero.Clear();
-                mpa.MostrarMeseros($"select * from v_meseros where Estado = '{CmbEstado.Text}'", DtgMeseros, "meseros");
+                MessageBox.Show("Error al agregar el mesero", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

@@ -88,41 +88,11 @@
     <Compile Include="FrmAgregarProductoMenu.Designer.cs">
       <DependentUpon>FrmAgregarProductoMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmBuscarCliente.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmBuscarCliente.Designer.cs">
-      <DependentUpon>FrmBuscarCliente.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmBuscarClienteM.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmBuscarClienteM.Designer.cs">
-      <DependentUpon>FrmBuscarClienteM.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmCambiarMesero.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmCambiarMesero.Designer.cs">
-      <DependentUpon>FrmCambiarMesero.cs</DependentUpon>
-    </Compile>
     <Compile Include="FrmCapturarPedido.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmCapturarPedido.Designer.cs">
       <DependentUpon>FrmCapturarPedido.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmComedor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmComedor.Designer.cs">
-      <DependentUpon>FrmComedor.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmConsultarComedor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmConsultarComedor.Designer.cs">
-      <DependentUpon>FrmConsultarComedor.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmConsultarPrecios.cs">
       <SubType>Form</SubType>
@@ -141,12 +111,6 @@
     </Compile>
     <Compile Include="FrmDatosSubCategoria.Designer.cs">
       <DependentUpon>FrmDatosSubCategoria.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmDepRetCaja.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmDepRetCaja.Designer.cs">
-      <DependentUpon>FrmDepRetCaja.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmDetalleEntrada.cs">
       <SubType>Form</SubType>
@@ -232,12 +196,6 @@
     <Compile Include="FrmObservacionSalida.Designer.cs">
       <DependentUpon>FrmObservacionSalida.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmPedidoRapido.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmPedidoRapido.Designer.cs">
-      <DependentUpon>FrmPedidoRapido.cs</DependentUpon>
-    </Compile>
     <Compile Include="FrmPedidos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -268,12 +226,6 @@
     <Compile Include="FrmTeclado.Designer.cs">
       <DependentUpon>FrmTeclado.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmTraspasarProducto.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmTraspasarProducto.Designer.cs">
-      <DependentUpon>FrmTraspasarProducto.cs</DependentUpon>
-    </Compile>
     <Compile Include="FrmVentas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -292,12 +244,6 @@
     <Compile Include="FrmVerSalidas.Designer.cs">
       <DependentUpon>FrmVerSalidas.cs</DependentUpon>
     </Compile>
-    <Compile Include="PagarAdministrativo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PagarAdministrativo.Designer.cs">
-      <DependentUpon>PagarAdministrativo.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DatosClienteAdministrativo.resx">
@@ -315,23 +261,8 @@
     <EmbeddedResource Include="FrmAgregarProductoMenu.resx">
       <DependentUpon>FrmAgregarProductoMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmBuscarCliente.resx">
-      <DependentUpon>FrmBuscarCliente.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmBuscarClienteM.resx">
-      <DependentUpon>FrmBuscarClienteM.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmCambiarMesero.resx">
-      <DependentUpon>FrmCambiarMesero.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FrmCapturarPedido.resx">
       <DependentUpon>FrmCapturarPedido.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmComedor.resx">
-      <DependentUpon>FrmComedor.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmConsultarComedor.resx">
-      <DependentUpon>FrmConsultarComedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmConsultarPrecios.resx">
       <DependentUpon>FrmConsultarPrecios.cs</DependentUpon>
@@ -341,9 +272,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmDatosSubCategoria.resx">
       <DependentUpon>FrmDatosSubCategoria.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmDepRetCaja.resx">
-      <DependentUpon>FrmDepRetCaja.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmDetalleEntrada.resx">
       <DependentUpon>FrmDetalleEntrada.cs</DependentUpon>
@@ -387,9 +315,6 @@
     <EmbeddedResource Include="FrmObservacionSalida.resx">
       <DependentUpon>FrmObservacionSalida.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmPedidoRapido.resx">
-      <DependentUpon>FrmPedidoRapido.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FrmPedidos.resx">
       <DependentUpon>FrmPedidos.cs</DependentUpon>
     </EmbeddedResource>
@@ -405,9 +330,6 @@
     <EmbeddedResource Include="FrmTeclado.resx">
       <DependentUpon>FrmTeclado.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmTraspasarProducto.resx">
-      <DependentUpon>FrmTraspasarProducto.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FrmVentas.resx">
       <DependentUpon>FrmVentas.cs</DependentUpon>
     </EmbeddedResource>
@@ -416,9 +338,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmVerSalidas.resx">
       <DependentUpon>FrmVerSalidas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PagarAdministrativo.resx">
-      <DependentUpon>PagarAdministrativo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

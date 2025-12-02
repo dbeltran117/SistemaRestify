@@ -35,11 +35,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.BtnCancelar = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.RdbNo = new System.Windows.Forms.RadioButton();
-            this.RdbSi = new System.Windows.Forms.RadioButton();
-            this.label4 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.CmbMesero = new System.Windows.Forms.ComboBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.TxtCantidadPersonas = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -81,7 +78,7 @@
             this.TxtEtiqueta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(252)))), ((int)(((byte)(228)))));
             this.TxtEtiqueta.Location = new System.Drawing.Point(19, 182);
             this.TxtEtiqueta.Name = "TxtEtiqueta";
-            this.TxtEtiqueta.Size = new System.Drawing.Size(687, 31);
+            this.TxtEtiqueta.Size = new System.Drawing.Size(687, 25);
             this.TxtEtiqueta.TabIndex = 3;
             this.TxtEtiqueta.Click += new System.EventHandler(this.TxtEtiqueta_Click);
             // 
@@ -91,7 +88,7 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
             this.label2.Location = new System.Drawing.Point(13, 136);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(153, 32);
+            this.label2.Size = new System.Drawing.Size(119, 26);
             this.label2.TabIndex = 2;
             this.label2.Text = "Alias Mesa";
             // 
@@ -101,7 +98,7 @@
             this.CmbMesas.FormattingEnabled = true;
             this.CmbMesas.Location = new System.Drawing.Point(19, 48);
             this.CmbMesas.Name = "CmbMesas";
-            this.CmbMesas.Size = new System.Drawing.Size(687, 39);
+            this.CmbMesas.Size = new System.Drawing.Size(687, 34);
             this.CmbMesas.TabIndex = 1;
             // 
             // label1
@@ -110,7 +107,7 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
             this.label1.Location = new System.Drawing.Point(13, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(150, 32);
+            this.label1.Size = new System.Drawing.Size(117, 26);
             this.label1.TabIndex = 0;
             this.label1.Text = "Abrir Mesa";
             // 
@@ -132,68 +129,31 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.RdbNo);
-            this.panel2.Controls.Add(this.RdbSi);
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.comboBox1);
-            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.label7);
+            this.panel2.Controls.Add(this.CmbMesero);
             this.panel2.Location = new System.Drawing.Point(745, 12);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(693, 338);
             this.panel2.TabIndex = 4;
             // 
-            // RdbNo
+            // label7
             // 
-            this.RdbNo.AutoSize = true;
-            this.RdbNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
-            this.RdbNo.Location = new System.Drawing.Point(226, 157);
-            this.RdbNo.Name = "RdbNo";
-            this.RdbNo.Size = new System.Drawing.Size(71, 36);
-            this.RdbNo.TabIndex = 8;
-            this.RdbNo.TabStop = true;
-            this.RdbNo.Text = "No";
-            this.RdbNo.UseVisualStyleBackColor = true;
+            this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
+            this.label7.Location = new System.Drawing.Point(7, 79);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(90, 26);
+            this.label7.TabIndex = 20;
+            this.label7.Text = "Mesero:";
             // 
-            // RdbSi
+            // CmbMesero
             // 
-            this.RdbSi.AutoSize = true;
-            this.RdbSi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
-            this.RdbSi.Location = new System.Drawing.Point(9, 157);
-            this.RdbSi.Name = "RdbSi";
-            this.RdbSi.Size = new System.Drawing.Size(61, 36);
-            this.RdbSi.TabIndex = 7;
-            this.RdbSi.TabStop = true;
-            this.RdbSi.Text = "Si";
-            this.RdbSi.UseVisualStyleBackColor = true;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
-            this.label4.Location = new System.Drawing.Point(3, 101);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(120, 32);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Cliente..";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(9, 48);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(679, 39);
-            this.comboBox1.TabIndex = 5;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
-            this.label3.Location = new System.Drawing.Point(3, 13);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(208, 32);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Asignar Cliente";
+            this.CmbMesero.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CmbMesero.FormattingEnabled = true;
+            this.CmbMesero.Location = new System.Drawing.Point(103, 71);
+            this.CmbMesero.Name = "CmbMesero";
+            this.CmbMesero.Size = new System.Drawing.Size(575, 34);
+            this.CmbMesero.TabIndex = 19;
             // 
             // panel3
             // 
@@ -408,7 +368,7 @@
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
             this.label5.Location = new System.Drawing.Point(3, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(256, 32);
+            this.label5.Size = new System.Drawing.Size(197, 26);
             this.label5.TabIndex = 9;
             this.label5.Text = "Cantidad Personas";
             // 
@@ -429,7 +389,7 @@
             // 
             // FrmAbrirMesa
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(252)))), ((int)(((byte)(228)))));
             this.ClientSize = new System.Drawing.Size(1450, 800);
@@ -464,12 +424,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button BtnCancelar;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.RadioButton RdbSi;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.RadioButton RdbNo;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox TxtCantidadPersonas;
         private System.Windows.Forms.Panel panel4;
@@ -485,5 +440,7 @@
         private System.Windows.Forms.Button Btn5;
         private System.Windows.Forms.Button Btn1;
         private System.Windows.Forms.Button BtnAceptar;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ComboBox CmbMesero;
     }
 }

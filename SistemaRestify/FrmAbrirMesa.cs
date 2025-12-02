@@ -15,8 +15,7 @@ namespace SistemaRestify
     public partial class FrmAbrirMesa : Form
     {
         public TextBox CampoDestinoCP { get; set; }
-        public static int MesaSeleccionada { get; set; }
-        public static int CantidadPersonas { get; set; }
+        public static Mesas mesa = new Mesas();
 
         ManejadorPrincipal mp;
         public FrmAbrirMesa()
@@ -25,10 +24,13 @@ namespace SistemaRestify
             CampoDestinoCP = TxtCantidadPersonas;
             mp = new ManejadorPrincipal();
             mp.MostrarMesas(CmbMesas);
+            mp.LlenarMeseros(CmbMesero);
         }
 
         private void BtnCancelar_Click(object sender, EventArgs e)
         {
+            mp.CerrarMesa(FrmPrincipal.mesa.NombreMesa, "", "Disponible");
+            mp.ActualizarEstadoMesa(FrmPrincipal.pmesas, FrmPrincipal.mesa.NombreMesa, "Disponible");
             Close();
         }
 
@@ -129,30 +131,62 @@ namespace SistemaRestify
 
         private void BtnAceptar_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(TxtCantidadPersonas.Text))
+            try
             {
-                MessageBox.Show("Por favor, seleccione el número de personas.",
-                                "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return; // detenemos aquí
+                if (string.IsNullOrWhiteSpace(TxtCantidadPersonas.Text))
+                {
+                    MessageBox.Show("Por favor, seleccione el número de personas.",
+                                    "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return; // detenemos aquí
+                }
+
+
+                // llamamos al procedure y capturamos el mensaje
+                string mensaje = mp.AbrirMesa(CmbMesas.Text, TxtEtiqueta.Text, "Ocupada");
+                if (!string.IsNullOrEmpty(mensaje))
+                {
+                    // si hay mensaje, significa que la mesa está ocupada → mostramos y detenemos
+                    MessageBox.Show(mensaje, "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                // si no hubo mensaje, todo salió bien → seguimos
+                mp.ActualizarEstadoMesa(FrmPrincipal.pmesas, CmbMesas.Text, "Ocupada");
+                var MesaSeleccionada = Convert.ToInt32(CmbMesas.SelectedValue);
+                string etiqueta = TxtEtiqueta.Text;
+
+
+
+
+                // 🔹 Crear la cuenta en memoria
+                var cuentaMesa = new Cuentas
+                {
+                    FkIdMesa = MesaSeleccionada,
+                    CantidadPersonas = Convert.ToInt32(TxtCantidadPersonas.Text),
+                    FkIdMesero = Convert.ToInt32(CmbMesero.SelectedValue),
+                    Detalles = new List<DetalleCuenta>()
+                };
+
+                // 🔹 Agregarla a la lista global si no existe
+                var existente = FrmPrincipal.cuentasActivas.FirstOrDefault(c => c.FkIdMesa == MesaSeleccionada);
+                if (existente == null)
+                {
+                    FrmPrincipal.cuentasActivas.Add(cuentaMesa);
+                }
+                else
+                {
+                    cuentaMesa = existente; // reutilizamos la existente
+                }
+
+                // 🔹 Pasar la cuenta al formulario de captura
+                this.Hide();
+                FrmCapturarPedido fcp = new FrmCapturarPedido(cuentaMesa);
+                fcp.ShowDialog();
             }
-
-            MesaSeleccionada = Convert.ToInt32(CmbMesas.SelectedValue);
-            CantidadPersonas = Convert.ToInt32(TxtCantidadPersonas.Text);
-
-            // llamamos al procedure y capturamos el mensaje
-            string mensaje = mp.AbrirMesa(CmbMesas.Text, TxtEtiqueta.Text, "Ocupada");
-            if (!string.IsNullOrEmpty(mensaje))
+            catch (Exception)
             {
-                // si hay mensaje, significa que la mesa está ocupada → mostramos y detenemos
-                MessageBox.Show(mensaje, "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
+                MessageBox.Show("Ocurrió un error al abrir la mesa. Intente nuevamente.","Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
-            // si no hubo mensaje, todo salió bien → seguimos
-            mp.ActualizarEstadoMesa(FrmPrincipal.pmesas, CmbMesas.Text, "Ocupada");
-            this.Hide();
-            FrmCapturarPedido fcp = new FrmCapturarPedido();
-            fcp.ShowDialog();
         }
     }
 }

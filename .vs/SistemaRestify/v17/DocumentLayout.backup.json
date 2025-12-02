@@ -3,52 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1215D1CA-0F00-464B-97D6-197987E12275}|Manejadores\\Manejadores.csproj|C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\manejadores\\manejadorprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1215D1CA-0F00-464B-97D6-197987E12275}|Manejadores\\Manejadores.csproj|solutionrelative:manejadores\\manejadorprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\sistemarestify\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|solutionrelative:sistemarestify\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|c:\\users\\diego\\onedrive\\documentos\\escuela\\sistemarestify\\sistemarestify\\frmcapturarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|solutionrelative:sistemarestify\\frmcapturarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1A425BE-9B7C-43FC-9109-A88DB0EA977A}|Entidades\\Entidades.csproj|c:\\users\\diego\\onedrive\\documentos\\escuela\\sistemarestify\\entidades\\detallecuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1A425BE-9B7C-43FC-9109-A88DB0EA977A}|Entidades\\Entidades.csproj|solutionrelative:entidades\\detallecuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\sistemarestify\\frmmenuopciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|solutionrelative:sistemarestify\\frmmenuopciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|c:\\users\\diego\\onedrive\\documentos\\escuela\\sistemarestify\\sistemarestify\\frmcapturarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|solutionrelative:sistemarestify\\frmcapturarpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1A425BE-9B7C-43FC-9109-A88DB0EA977A}|Entidades\\Entidades.csproj|c:\\users\\diego\\onedrive\\documentos\\escuela\\sistemarestify\\entidades\\cuentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1A425BE-9B7C-43FC-9109-A88DB0EA977A}|Entidades\\Entidades.csproj|solutionrelative:entidades\\cuentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1215D1CA-0F00-464B-97D6-197987E12275}|Manejadores\\Manejadores.csproj|c:\\users\\diego\\onedrive\\documentos\\escuela\\sistemarestify\\manejadores\\manejadorprincipaladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1215D1CA-0F00-464B-97D6-197987E12275}|Manejadores\\Manejadores.csproj|solutionrelative:manejadores\\manejadorprincipaladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\sistemarestify\\frmmenuopciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|solutionrelative:sistemarestify\\frmmenuopciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|c:\\users\\diego\\onedrive\\documentos\\escuela\\sistemarestify\\sistemarestify\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|solutionrelative:sistemarestify\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\sistemarestify\\frmabrirmesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|solutionrelative:sistemarestify\\frmabrirmesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\sistemarestify\\frmabrirmesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|solutionrelative:sistemarestify\\frmabrirmesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|c:\\users\\diego\\onedrive\\documentos\\escuela\\sistemarestify\\sistemarestify\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF9DF10D-8305-4AC4-8FC4-D2C38BF384EB}|SistemaRestify\\SistemaRestify.csproj|solutionrelative:sistemarestify\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,155 +34,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ManejadorPrincipalAdmin.cs",
-              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\Manejadores\\ManejadorPrincipalAdmin.cs",
-              "RelativeDocumentMoniker": "Manejadores\\ManejadorPrincipalAdmin.cs",
-              "ToolTip": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\Manejadores\\ManejadorPrincipalAdmin.cs",
-              "RelativeToolTip": "Manejadores\\ManejadorPrincipalAdmin.cs",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAiwMQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T02:10:03.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DetalleCuenta.cs",
-              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\Entidades\\DetalleCuenta.cs",
-              "RelativeDocumentMoniker": "Entidades\\DetalleCuenta.cs",
-              "ToolTip": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\Entidades\\DetalleCuenta.cs",
-              "RelativeToolTip": "Entidades\\DetalleCuenta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T01:48:34.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Cuentas.cs",
-              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\Entidades\\Cuentas.cs",
-              "RelativeDocumentMoniker": "Entidades\\Cuentas.cs",
-              "ToolTip": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\Entidades\\Cuentas.cs",
-              "RelativeToolTip": "Entidades\\Cuentas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T01:42:21.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmCapturarPedido.cs",
-              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\SistemaRestify\\FrmCapturarPedido.cs",
-              "RelativeDocumentMoniker": "SistemaRestify\\FrmCapturarPedido.cs",
-              "ToolTip": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\SistemaRestify\\FrmCapturarPedido.cs",
-              "RelativeToolTip": "SistemaRestify\\FrmCapturarPedido.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAcwEcAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T23:23:06.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FrmCapturarPedido.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\SistemaRestify\\FrmCapturarPedido.cs",
-              "RelativeDocumentMoniker": "SistemaRestify\\FrmCapturarPedido.cs",
-              "ToolTip": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\SistemaRestify\\FrmCapturarPedido.cs [Design]",
-              "RelativeToolTip": "SistemaRestify\\FrmCapturarPedido.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T23:22:59.882Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FrmPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\SistemaRestify\\FrmPrincipal.cs",
-              "RelativeDocumentMoniker": "SistemaRestify\\FrmPrincipal.cs",
-              "ToolTip": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\SistemaRestify\\FrmPrincipal.cs",
-              "RelativeToolTip": "SistemaRestify\\FrmPrincipal.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAcwEQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T16:50:12.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FrmAbrirMesa.cs",
-              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\SistemaRestify\\FrmAbrirMesa.cs",
-              "RelativeDocumentMoniker": "SistemaRestify\\FrmAbrirMesa.cs",
-              "ToolTip": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\SistemaRestify\\FrmAbrirMesa.cs",
-              "RelativeToolTip": "SistemaRestify\\FrmAbrirMesa.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAgwJIAAABgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T16:32:02.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FrmAbrirMesa.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\SistemaRestify\\FrmAbrirMesa.cs",
-              "RelativeDocumentMoniker": "SistemaRestify\\FrmAbrirMesa.cs",
-              "ToolTip": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\SistemaRestify\\FrmAbrirMesa.cs [Design]",
-              "RelativeToolTip": "SistemaRestify\\FrmAbrirMesa.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T16:31:54.294Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FrmMenuOpciones.cs",
-              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\SistemaRestify\\FrmMenuOpciones.cs",
-              "RelativeDocumentMoniker": "SistemaRestify\\FrmMenuOpciones.cs",
-              "ToolTip": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\SistemaRestify\\FrmMenuOpciones.cs",
-              "RelativeToolTip": "SistemaRestify\\FrmMenuOpciones.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAAB4AAACBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T15:42:03.717Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FrmMenuOpciones.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\SistemaRestify\\FrmMenuOpciones.cs",
-              "RelativeDocumentMoniker": "SistemaRestify\\FrmMenuOpciones.cs",
-              "ToolTip": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\SistemaRestify\\FrmMenuOpciones.cs [Design]",
-              "RelativeToolTip": "SistemaRestify\\FrmMenuOpciones.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T15:41:28.896Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmPrincipal.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\SistemaRestify\\FrmPrincipal.cs",
-              "RelativeDocumentMoniker": "SistemaRestify\\FrmPrincipal.cs",
-              "ToolTip": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\SistemaRestify\\FrmPrincipal.cs [Design]",
-              "RelativeToolTip": "SistemaRestify\\FrmPrincipal.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T15:41:46.645Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ManejadorPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\Manejadores\\ManejadorPrincipal.cs",
-              "RelativeDocumentMoniker": "Manejadores\\ManejadorPrincipal.cs",
-              "ToolTip": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\Manejadores\\ManejadorPrincipal.cs",
-              "RelativeToolTip": "Manejadores\\ManejadorPrincipal.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAAALYAAAAjAAAAAAAAAA==",
+              "Title": "FrmLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\SistemaRestify\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "SistemaRestify\\FrmLogin.cs",
+              "ToolTip": "C:\\Users\\diego\\OneDrive\\Documentos\\ESCUELA\\SistemaRestify\\SistemaRestify\\FrmLogin.cs [Design]",
+              "RelativeToolTip": "SistemaRestify\\FrmLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T15:45:51.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T04:00:06.625Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

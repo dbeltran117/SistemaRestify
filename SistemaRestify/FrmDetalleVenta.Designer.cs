@@ -32,6 +32,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.DtgVentas = new System.Windows.Forms.DataGridView();
             this.BtnSalir = new System.Windows.Forms.Button();
+            this.LblTotal = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.DtgVentas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -75,12 +76,24 @@
             this.BtnSalir.UseVisualStyleBackColor = false;
             this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
+            // LblTotal
+            // 
+            this.LblTotal.AutoSize = true;
+            this.LblTotal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(62)))), ((int)(((byte)(25)))));
+            this.LblTotal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(236)))), ((int)(((byte)(201)))));
+            this.LblTotal.Location = new System.Drawing.Point(12, 754);
+            this.LblTotal.Name = "LblTotal";
+            this.LblTotal.Size = new System.Drawing.Size(30, 32);
+            this.LblTotal.TabIndex = 19;
+            this.LblTotal.Text = "0";
+            // 
             // FrmDetalleVenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(236)))), ((int)(((byte)(201)))));
             this.ClientSize = new System.Drawing.Size(1450, 800);
+            this.Controls.Add(this.LblTotal);
             this.Controls.Add(this.BtnSalir);
             this.Controls.Add(this.DtgVentas);
             this.Controls.Add(this.label1);
@@ -93,6 +106,7 @@
             this.Load += new System.EventHandler(this.FrmDetalleVenta_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DtgVentas)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -101,5 +115,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView DtgVentas;
         private System.Windows.Forms.Button BtnSalir;
+        private System.Windows.Forms.Label LblTotal;
     }
 }

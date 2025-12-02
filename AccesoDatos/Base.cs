@@ -24,6 +24,10 @@ namespace AccesoDatos
             {
                 MySqlCommand cmd = new MySqlCommand(cadena, con);
                 con.Open();
+
+                MySqlCommand cmdZona = new MySqlCommand("SET time_zone = 'America/Mexico_City';", con);
+                cmdZona.ExecuteNonQuery();
+
                 cmd.ExecuteNonQuery();
                 con.Close();
             }
@@ -41,6 +45,10 @@ namespace AccesoDatos
             {
                 MySqlDataAdapter da = new MySqlDataAdapter(consulta, con);
                 con.Open();
+
+                MySqlCommand cmdZona = new MySqlCommand("SET time_zone = 'America/Mexico_City';", con);
+                cmdZona.ExecuteNonQuery();
+
                 da.Fill(ds, tabla);
                 con.Close();
             }

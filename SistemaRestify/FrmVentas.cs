@@ -42,10 +42,10 @@ namespace SistemaRestify
             }
             else
             {
-                int idCuenta = Convert.ToInt32(DtgVentas.Rows[fila].Cells["idCuenta"].Value);
+                cuenta.IdCuenta = Convert.ToInt32(DtgVentas.Rows[fila].Cells["idCuenta"].Value);
                 switch(columna)
                 {
-                    case 4:
+                    case 3:
                         {
                             FrmDetalleVenta fdv = new FrmDetalleVenta();
                             fdv.ShowDialog();

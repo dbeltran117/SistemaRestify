@@ -58,7 +58,7 @@
             this.BtnEntrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.BtnEntrar.FlatAppearance.BorderSize = 0;
             this.BtnEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnEntrar.Location = new System.Drawing.Point(728, 292);
+            this.BtnEntrar.Location = new System.Drawing.Point(1162, 292);
             this.BtnEntrar.Name = "BtnEntrar";
             this.BtnEntrar.Size = new System.Drawing.Size(64, 64);
             this.BtnEntrar.TabIndex = 2;
@@ -74,7 +74,7 @@
             this.TxtUser.Location = new System.Drawing.Point(184, 12);
             this.TxtUser.Multiline = true;
             this.TxtUser.Name = "TxtUser";
-            this.TxtUser.Size = new System.Drawing.Size(597, 88);
+            this.TxtUser.Size = new System.Drawing.Size(1042, 88);
             this.TxtUser.TabIndex = 7;
             this.TxtUser.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.TxtUser.Click += new System.EventHandler(this.TxtUser_Click);
@@ -89,7 +89,7 @@
             this.TxtClave.Multiline = true;
             this.TxtClave.Name = "TxtClave";
             this.TxtClave.PasswordChar = '*';
-            this.TxtClave.Size = new System.Drawing.Size(597, 88);
+            this.TxtClave.Size = new System.Drawing.Size(1042, 88);
             this.TxtClave.TabIndex = 8;
             this.TxtClave.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.TxtClave.Click += new System.EventHandler(this.TxtClave_Click);
@@ -100,7 +100,7 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
             this.label1.Location = new System.Drawing.Point(7, 173);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(217, 32);
+            this.label1.Size = new System.Drawing.Size(171, 26);
             this.label1.TabIndex = 0;
             this.label1.Text = "CONTRASEÑA:";
             // 
@@ -110,16 +110,16 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
             this.label2.Location = new System.Drawing.Point(12, 43);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(149, 32);
+            this.label2.Size = new System.Drawing.Size(119, 26);
             this.label2.TabIndex = 9;
             this.label2.Text = "USUARIO:";
             // 
             // FrmLoginMesero
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(252)))), ((int)(((byte)(228)))));
-            this.ClientSize = new System.Drawing.Size(804, 359);
+            this.ClientSize = new System.Drawing.Size(1238, 764);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TxtClave);

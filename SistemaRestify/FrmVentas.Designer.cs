@@ -35,7 +35,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.DtpFecha = new System.Windows.Forms.DateTimePicker();
             this.BtnBuscar = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DtgVentas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -88,7 +87,7 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(236)))), ((int)(((byte)(201)))));
             this.label2.Location = new System.Drawing.Point(12, 115);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(101, 32);
+            this.label2.Size = new System.Drawing.Size(78, 26);
             this.label2.TabIndex = 17;
             this.label2.Text = "Fecha:";
             // 
@@ -96,7 +95,7 @@
             // 
             this.DtpFecha.Location = new System.Drawing.Point(119, 111);
             this.DtpFecha.Name = "DtpFecha";
-            this.DtpFecha.Size = new System.Drawing.Size(398, 38);
+            this.DtpFecha.Size = new System.Drawing.Size(398, 32);
             this.DtpFecha.TabIndex = 18;
             // 
             // BtnBuscar
@@ -114,29 +113,12 @@
             this.BtnBuscar.UseVisualStyleBackColor = false;
             this.BtnBuscar.Click += new System.EventHandler(this.BtnBuscar_Click);
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(248)))), ((int)(((byte)(248)))));
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(12, 698);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(238, 90);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "VENTAS POR PRODUCTO";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.UseVisualStyleBackColor = false;
-            // 
             // FrmVentas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(236)))), ((int)(((byte)(201)))));
             this.ClientSize = new System.Drawing.Size(1450, 800);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.BtnBuscar);
             this.Controls.Add(this.DtpFecha);
             this.Controls.Add(this.label2);
@@ -163,6 +145,5 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DateTimePicker DtpFecha;
         private System.Windows.Forms.Button BtnBuscar;
-        private System.Windows.Forms.Button button1;
     }
 }

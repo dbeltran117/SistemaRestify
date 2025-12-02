@@ -12,6 +12,6 @@ namespace Entidades
         public int FkIdMesa { get; set; }
         public int CantidadPersonas { get; set; }
         public int FkIdMesero { get; set; }
-        public double Propina { get; set; } 
+        public List<DetalleCuenta> Detalles { get; set; } = new List<DetalleCuenta>();
     }
 }

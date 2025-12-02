@@ -7,14 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Manejadores;
 
 namespace SistemaRestify
 {
     public partial class FrmLogin : Form
     {
+        ManejadorUsuarios mu;
         public FrmLogin()
         {
             InitializeComponent();
+            mu = new ManejadorUsuarios();
         }
 
         private void BtnSalir_Click(object sender, EventArgs e)

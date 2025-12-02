@@ -62,18 +62,25 @@ namespace SistemaRestify
 
         private void BtnGuardar_Click(object sender, EventArgs e)
         {
-            if (TxtCodigo.Text == null || TxtDesc.Text == null || CmbAddCategoria.SelectedValue.ToString() == null || TxtPrecio.Text == null || TxtImporte.Text == null)
+            try
             {
-                MessageBox.Show("Por favor, completa todos los campos antes de guardar.", "Campos incompletos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                if (TxtCodigo.Text == null || TxtDesc.Text == null || CmbAddCategoria.SelectedValue.ToString() == null || TxtPrecio.Text == null || TxtImporte.Text == null)
+                {
+                    MessageBox.Show("Por favor, completa todos los campos antes de guardar.", "Campos incompletos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    mpa.AgregarProducto(TxtCodigo.Text, TxtDesc.Text, int.Parse(CmbAddCategoria.SelectedValue.ToString()), double.Parse(TxtPrecio.Text), double.Parse(TxtImporte.Text));
+                    mpa.MostrarProdutos($"select * from v_productosVista where idCategoria = {CmbCategorias.SelectedValue}", DtgProductos, "productosVenta");
+                    TxtCodigo.Clear();
+                    TxtDesc.Clear();
+                    TxtPrecio.Clear();
+                    TxtImporte.Clear();
+                }
             }
-            else 
+            catch (Exception)
             {
-                mpa.AgregarProducto(TxtCodigo.Text, TxtDesc.Text, int.Parse(CmbAddCategoria.SelectedValue.ToString()), double.Parse(TxtPrecio.Text), double.Parse(TxtImporte.Text));
-                mpa.MostrarProdutos($"select * from v_productosVista where idCategoria = {CmbCategorias.SelectedValue}", DtgProductos, "productosVenta");
-                TxtCodigo.Clear();
-                TxtDesc.Clear();
-                TxtPrecio.Clear(); 
-                TxtImporte.Clear();
+                MessageBox.Show("Error al guardar el producto. Verifica los datos ingresados.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

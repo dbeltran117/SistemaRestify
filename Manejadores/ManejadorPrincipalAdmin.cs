@@ -298,8 +298,7 @@ namespace Manejadores
             tabla.Columns.Clear();
             tabla.DataSource = b.Consultar(consulta, datos).Tables[0];
             tabla.Columns["idCuenta"].Visible = false;
-            tabla.Columns["Propina de la Mesa"].DefaultCellStyle.Format = "C2";
-            tabla.Columns.Insert(4,Boton("Detalle de la Cuenta",Color.DarkBlue));
+            tabla.Columns.Insert(3,Boton("Detalle de la Cuenta",Color.DarkBlue));
             tabla.AutoResizeColumns();
             tabla.AutoResizeRows();
         }
@@ -311,33 +310,11 @@ namespace Manejadores
             tabla.Columns["idCuenta"].Visible = false;
             tabla.Columns["idDetalleMesa"].Visible = false;
             tabla.Columns["idProducto"].Visible = false;
-            tabla.Columns["fkIdCategoria"].Visible = false;
             tabla.Columns["Precio"].DefaultCellStyle.Format = "C2";
+            tabla.Columns["Total"].DefaultCellStyle.Format = "C2";
             tabla.AutoResizeColumns();
             tabla.AutoResizeRows();
         }
-
-        /*public void LlenarProductos(ComboBox cmb)
-        {
-            // consultar categorías desde la BD
-            DataTable dt = b.Consultar("select * from categorias", "categorias").Tables[0];
-
-            // crear una fila extra para "Todos los productos"
-            DataRow filaTodos = dt.NewRow();
-            filaTodos["idCategoria"] = 0; // valor especial para identificar "todos"
-            filaTodos["nombreCategoria"] = "Todos los productos";
-
-            // insertar la fila al inicio
-            dt.Rows.InsertAt(filaTodos, 0);
-
-            // asignar al ComboBox
-            cmb.DataSource = dt;
-            cmb.DisplayMember = "nombreCategoria";
-            cmb.ValueMember = "idCategoria";
-
-            // seleccionar por defecto "Todos los productos"
-            cmb.SelectedIndex = 0;
-        }*/
 
         #endregion
 

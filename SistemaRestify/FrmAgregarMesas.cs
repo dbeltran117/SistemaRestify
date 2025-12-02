@@ -57,15 +57,22 @@ namespace SistemaRestify
 
         private void BtnGuardar_Click(object sender, EventArgs e)
         {
-            if(TxtNumMesa.Text == "")
+            try
             {
-                MessageBox.Show("Debe ingresar un número de mesa", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                if (TxtNumMesa.Text == "")
+                {
+                    MessageBox.Show("Debe ingresar un número de mesa", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    mpa.AgregarMesas(TxtNumMesa.Text);
+                    TxtNumMesa.Clear();
+                    mpa.MostrarMesas("select * from v_mesas", DtgMesas, "mesas");
+                }
             }
-            else
+            catch (Exception)
             {
-                mpa.AgregarMesas(TxtNumMesa.Text);
-                TxtNumMesa.Clear();
-                mpa.MostrarMesas("select * from v_mesas", DtgMesas, "mesas");
+                MessageBox.Show("Error al agregar la mesa. Verifique que el número sea valido.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

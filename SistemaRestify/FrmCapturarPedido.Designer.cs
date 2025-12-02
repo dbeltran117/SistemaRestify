@@ -37,6 +37,9 @@
             this.PlLateral = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.BtnEliminarProducto = new System.Windows.Forms.Button();
+            this.LblCuenta = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.DtgCuentaActual = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
             this.BtnBuscar = new System.Windows.Forms.Button();
@@ -46,9 +49,9 @@
             this.DtgMenu = new System.Windows.Forms.DataGridView();
             this.label5 = new System.Windows.Forms.Label();
             this.BtnAceptar = new System.Windows.Forms.Button();
-            this.BtnComentario = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.LblCuenta = new System.Windows.Forms.Label();
+            this.LblEtiqueta = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.PlLateral2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DtgCuentaActual)).BeginInit();
             this.panel2.SuspendLayout();
@@ -138,6 +141,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.BtnEliminarProducto);
             this.panel1.Controls.Add(this.LblCuenta);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.DtgCuentaActual);
@@ -147,6 +151,41 @@
             this.panel1.Size = new System.Drawing.Size(712, 685);
             this.panel1.TabIndex = 10;
             // 
+            // BtnEliminarProducto
+            // 
+            this.BtnEliminarProducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(180)))), ((int)(((byte)(137)))));
+            this.BtnEliminarProducto.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
+            this.BtnEliminarProducto.FlatAppearance.BorderSize = 2;
+            this.BtnEliminarProducto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnEliminarProducto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(252)))), ((int)(((byte)(228)))));
+            this.BtnEliminarProducto.Location = new System.Drawing.Point(426, 634);
+            this.BtnEliminarProducto.Name = "BtnEliminarProducto";
+            this.BtnEliminarProducto.Size = new System.Drawing.Size(271, 48);
+            this.BtnEliminarProducto.TabIndex = 16;
+            this.BtnEliminarProducto.Text = "Eliminar Producto";
+            this.BtnEliminarProducto.UseVisualStyleBackColor = false;
+            this.BtnEliminarProducto.Click += new System.EventHandler(this.BtnEliminarProducto_Click);
+            // 
+            // LblCuenta
+            // 
+            this.LblCuenta.AutoSize = true;
+            this.LblCuenta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
+            this.LblCuenta.Location = new System.Drawing.Point(97, 645);
+            this.LblCuenta.Name = "LblCuenta";
+            this.LblCuenta.Size = new System.Drawing.Size(24, 26);
+            this.LblCuenta.TabIndex = 12;
+            this.LblCuenta.Text = "0";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
+            this.label2.Location = new System.Drawing.Point(12, 645);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(65, 26);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Total:";
+            // 
             // DtgCuentaActual
             // 
             this.DtgCuentaActual.AllowUserToAddRows = false;
@@ -154,12 +193,12 @@
             this.DtgCuentaActual.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DtgCuentaActual.Location = new System.Drawing.Point(17, 42);
             this.DtgCuentaActual.Name = "DtgCuentaActual";
+            this.DtgCuentaActual.RowHeadersWidth = 51;
             this.DtgCuentaActual.Size = new System.Drawing.Size(680, 586);
             this.DtgCuentaActual.TabIndex = 10;
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.BtnComentario);
             this.panel2.Controls.Add(this.BtnBuscar);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.CmbCategorias);
@@ -214,7 +253,7 @@
             this.BtnAgregarProducto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(252)))), ((int)(((byte)(228)))));
             this.BtnAgregarProducto.Location = new System.Drawing.Point(17, 634);
             this.BtnAgregarProducto.Name = "BtnAgregarProducto";
-            this.BtnAgregarProducto.Size = new System.Drawing.Size(271, 48);
+            this.BtnAgregarProducto.Size = new System.Drawing.Size(680, 48);
             this.BtnAgregarProducto.TabIndex = 12;
             this.BtnAgregarProducto.Text = "Agregar Producto";
             this.BtnAgregarProducto.UseVisualStyleBackColor = false;
@@ -228,6 +267,7 @@
             this.DtgMenu.Location = new System.Drawing.Point(17, 75);
             this.DtgMenu.Name = "DtgMenu";
             this.DtgMenu.ReadOnly = true;
+            this.DtgMenu.RowHeadersWidth = 51;
             this.DtgMenu.Size = new System.Drawing.Size(680, 553);
             this.DtgMenu.TabIndex = 11;
             // 
@@ -256,39 +296,33 @@
             this.BtnAceptar.UseVisualStyleBackColor = false;
             this.BtnAceptar.Click += new System.EventHandler(this.BtnAceptar_Click);
             // 
-            // BtnComentario
+            // LblEtiqueta
             // 
-            this.BtnComentario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(180)))), ((int)(((byte)(137)))));
-            this.BtnComentario.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
-            this.BtnComentario.FlatAppearance.BorderSize = 2;
-            this.BtnComentario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnComentario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(252)))), ((int)(((byte)(228)))));
-            this.BtnComentario.Location = new System.Drawing.Point(294, 634);
-            this.BtnComentario.Name = "BtnComentario";
-            this.BtnComentario.Size = new System.Drawing.Size(403, 48);
-            this.BtnComentario.TabIndex = 16;
-            this.BtnComentario.Text = "Agregar Producto con Comentario";
-            this.BtnComentario.UseVisualStyleBackColor = false;
+            this.LblEtiqueta.AutoSize = true;
+            this.LblEtiqueta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
+            this.LblEtiqueta.Location = new System.Drawing.Point(524, 9);
+            this.LblEtiqueta.Name = "LblEtiqueta";
+            this.LblEtiqueta.Size = new System.Drawing.Size(24, 26);
+            this.LblEtiqueta.TabIndex = 14;
+            this.LblEtiqueta.Text = "0";
             // 
-            // label2
+            // label8
             // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
-            this.label2.Location = new System.Drawing.Point(12, 645);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 26);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "Total:";
+            this.label8.AutoSize = true;
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
+            this.label8.Location = new System.Drawing.Point(352, 9);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(157, 26);
+            this.label8.TabIndex = 13;
+            this.label8.Text = "Etiqueta Mesa:";
             // 
-            // LblCuenta
+            // PlLateral2
             // 
-            this.LblCuenta.AutoSize = true;
-            this.LblCuenta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
-            this.LblCuenta.Location = new System.Drawing.Point(97, 645);
-            this.LblCuenta.Name = "LblCuenta";
-            this.LblCuenta.Size = new System.Drawing.Size(24, 26);
-            this.LblCuenta.TabIndex = 12;
-            this.LblCuenta.Text = "0";
+            this.PlLateral2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
+            this.PlLateral2.Location = new System.Drawing.Point(341, 0);
+            this.PlLateral2.Name = "PlLateral2";
+            this.PlLateral2.Size = new System.Drawing.Size(5, 40);
+            this.PlLateral2.TabIndex = 9;
             // 
             // FrmCapturarPedido
             // 
@@ -296,6 +330,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(245)))), ((int)(((byte)(225)))));
             this.ClientSize = new System.Drawing.Size(1450, 800);
+            this.Controls.Add(this.PlLateral2);
+            this.Controls.Add(this.LblEtiqueta);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.BtnAceptar);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -312,6 +349,7 @@
             this.Name = "FrmCapturarPedido";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmCapturarPedido";
+            this.Load += new System.EventHandler(this.FrmCapturarPedido_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DtgCuentaActual)).EndInit();
@@ -343,8 +381,11 @@
         private System.Windows.Forms.Button BtnBuscar;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox CmbCategorias;
-        private System.Windows.Forms.Button BtnComentario;
         private System.Windows.Forms.Label LblCuenta;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label LblEtiqueta;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Panel PlLateral2;
+        private System.Windows.Forms.Button BtnEliminarProducto;
     }
 }

@@ -18,6 +18,8 @@ namespace SistemaRestify
         ManejadorPrincipal mp;
         public static Panel pmesas = new Panel();
         public static Mesas mesa = new Mesas();
+        public static List<Cuentas> cuentasActivas = new List<Cuentas>();
+        public static List<ProductosVenta> productos = new List<ProductosVenta>();
         public FrmPrincipal()
         {
             InitializeComponent();
@@ -71,6 +73,7 @@ namespace SistemaRestify
             };
 
             mp.CrearBotonesMesas(pmesas);
+            productos = mp.ObtenerProductos();
         }
     }
 }

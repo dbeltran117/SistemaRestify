@@ -36,17 +36,15 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.TxtNombre = new System.Windows.Forms.TextBox();
-            this.CmbZona = new System.Windows.Forms.ComboBox();
-            this.TxtHora = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.CmbMesasDisponibles = new System.Windows.Forms.ComboBox();
             this.BtnAceptar = new System.Windows.Forms.Button();
             this.BtnCancelar = new System.Windows.Forms.Button();
+            this.TxtCantidadP = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.DtpFecha = new System.Windows.Forms.DateTimePicker();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.SuspendLayout();
@@ -119,45 +117,23 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Nombre:";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Lucida Bright", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
-            this.label3.Location = new System.Drawing.Point(176, 306);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(88, 32);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Zona:";
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Lucida Bright", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
-            this.label4.Location = new System.Drawing.Point(613, 419);
+            this.label4.Location = new System.Drawing.Point(176, 346);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(96, 32);
             this.label4.TabIndex = 6;
             this.label4.Text = "Fecha:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Lucida Bright", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
-            this.label5.Location = new System.Drawing.Point(176, 419);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(85, 32);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Hora:";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Lucida Bright", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
-            this.label6.Location = new System.Drawing.Point(176, 545);
+            this.label6.Location = new System.Drawing.Point(176, 422);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(258, 32);
             this.label6.TabIndex = 8;
@@ -174,46 +150,14 @@
             this.TxtNombre.Size = new System.Drawing.Size(680, 28);
             this.TxtNombre.TabIndex = 9;
             // 
-            // CmbZona
-            // 
-            this.CmbZona.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(245)))), ((int)(((byte)(225)))));
-            this.CmbZona.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.CmbZona.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
-            this.CmbZona.FormattingEnabled = true;
-            this.CmbZona.Location = new System.Drawing.Point(305, 301);
-            this.CmbZona.Name = "CmbZona";
-            this.CmbZona.Size = new System.Drawing.Size(680, 33);
-            this.CmbZona.TabIndex = 10;
-            // 
-            // TxtHora
-            // 
-            this.TxtHora.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(245)))), ((int)(((byte)(225)))));
-            this.TxtHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtHora.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
-            this.TxtHora.Location = new System.Drawing.Point(305, 414);
-            this.TxtHora.Multiline = true;
-            this.TxtHora.Name = "TxtHora";
-            this.TxtHora.Size = new System.Drawing.Size(269, 28);
-            this.TxtHora.TabIndex = 11;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(245)))), ((int)(((byte)(225)))));
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
-            this.textBox1.Location = new System.Drawing.Point(716, 414);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(269, 28);
-            this.textBox1.TabIndex = 12;
-            // 
             // CmbMesasDisponibles
             // 
             this.CmbMesasDisponibles.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(245)))), ((int)(((byte)(225)))));
+            this.CmbMesasDisponibles.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbMesasDisponibles.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.CmbMesasDisponibles.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
             this.CmbMesasDisponibles.FormattingEnabled = true;
-            this.CmbMesasDisponibles.Location = new System.Drawing.Point(378, 545);
+            this.CmbMesasDisponibles.Location = new System.Drawing.Point(378, 422);
             this.CmbMesasDisponibles.Name = "CmbMesasDisponibles";
             this.CmbMesasDisponibles.Size = new System.Drawing.Size(607, 33);
             this.CmbMesasDisponibles.TabIndex = 13;
@@ -231,6 +175,7 @@
             this.BtnAceptar.TabIndex = 14;
             this.BtnAceptar.Text = "Aceptar";
             this.BtnAceptar.UseVisualStyleBackColor = false;
+            this.BtnAceptar.Click += new System.EventHandler(this.BtnAceptar_Click);
             this.BtnAceptar.Paint += new System.Windows.Forms.PaintEventHandler(this.BtnAceptar_Paint);
             // 
             // BtnCancelar
@@ -249,23 +194,52 @@
             this.BtnCancelar.Click += new System.EventHandler(this.BtnCancelar_Click);
             this.BtnCancelar.Paint += new System.Windows.Forms.PaintEventHandler(this.BtnCancelar_Paint);
             // 
+            // TxtCantidadP
+            // 
+            this.TxtCantidadP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(245)))), ((int)(((byte)(225)))));
+            this.TxtCantidadP.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtCantidadP.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
+            this.TxtCantidadP.Location = new System.Drawing.Point(489, 258);
+            this.TxtCantidadP.Multiline = true;
+            this.TxtCantidadP.Name = "TxtCantidadP";
+            this.TxtCantidadP.Size = new System.Drawing.Size(269, 28);
+            this.TxtCantidadP.TabIndex = 17;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Lucida Bright", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(113)))), ((int)(((byte)(83)))));
+            this.label3.Location = new System.Drawing.Point(176, 256);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(307, 32);
+            this.label3.TabIndex = 16;
+            this.label3.Text = "Cantidad de Personas:";
+            // 
+            // DtpFecha
+            // 
+            this.DtpFecha.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(245)))), ((int)(((byte)(225)))));
+            this.DtpFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DtpFecha.Location = new System.Drawing.Point(278, 339);
+            this.DtpFecha.Name = "DtpFecha";
+            this.DtpFecha.Size = new System.Drawing.Size(490, 38);
+            this.DtpFecha.TabIndex = 18;
+            // 
             // FrmReservaciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(245)))), ((int)(((byte)(225)))));
             this.ClientSize = new System.Drawing.Size(1042, 776);
+            this.Controls.Add(this.DtpFecha);
+            this.Controls.Add(this.TxtCantidadP);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.BtnCancelar);
             this.Controls.Add(this.BtnAceptar);
             this.Controls.Add(this.CmbMesasDisponibles);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.TxtHora);
-            this.Controls.Add(this.CmbZona);
             this.Controls.Add(this.TxtNombre);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
@@ -276,7 +250,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmReservaciones";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmReservaciones";
             this.panel1.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -293,16 +266,14 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox TxtNombre;
-        private System.Windows.Forms.ComboBox CmbZona;
-        private System.Windows.Forms.TextBox TxtHora;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ComboBox CmbMesasDisponibles;
         private System.Windows.Forms.Button BtnAceptar;
         private System.Windows.Forms.Button BtnCancelar;
+        private System.Windows.Forms.TextBox TxtCantidadP;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.DateTimePicker DtpFecha;
     }
 }

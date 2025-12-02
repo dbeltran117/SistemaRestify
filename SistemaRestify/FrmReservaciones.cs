@@ -7,14 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Manejadores;
 
 namespace SistemaRestify
 {
     public partial class FrmReservaciones : Form
     {
+        ManejadorPrincipal mp;
         public FrmReservaciones()
         {
             InitializeComponent();
+            mp = new ManejadorPrincipal();
+            mp.MostrarMesas(CmbMesasDisponibles);
         }
 
         private void BtnAceptar_Paint(object sender, PaintEventArgs e)
@@ -68,6 +72,19 @@ namespace SistemaRestify
         private void BtnCancelar_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void BtnAceptar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string fechaReservacion = DtpFecha.Value.ToString("yyyy-MM-dd");
+                mp.AgegarReservacion(Convert.ToInt32(CmbMesasDisponibles.SelectedValue), TxtNombre.Text, Convert.ToInt32(TxtCantidadP.Text), fechaReservacion);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Error al agregar la reservación. Verifica los datos e inténtalo de nuevo.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
