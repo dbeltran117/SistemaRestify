@@ -131,3 +131,4 @@ C:\Users\diego\OneDrive\Documentos\ESCUELA\SistemaRestify\SistemaRestify\obj\Deb
 C:\Users\diego\OneDrive\Documentos\ESCUELA\SistemaRestify\SistemaRestify\obj\Debug\SistemaRestify.FrmDetalleVenta.resources
 C:\Users\diego\OneDrive\Documentos\ESCUELA\SistemaRestify\SistemaRestify\obj\Debug\SistemaRestify.FrmInventario.resources
 C:\Users\diego\OneDrive\Documentos\ESCUELA\SistemaRestify\SistemaRestify\obj\Debug\Manejadores.FrmInsumos.resources
+C:\Users\diego\OneDrive\Documentos\ESCUELA\SistemaRestify\SistemaRestify\obj\Debug\SistemaRestify.FrmAgregarUsuarios.resources

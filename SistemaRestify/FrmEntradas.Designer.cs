@@ -100,16 +100,18 @@
             this.TxtCosto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(244)))));
             this.TxtCosto.Location = new System.Drawing.Point(83, 170);
             this.TxtCosto.Name = "TxtCosto";
-            this.TxtCosto.Size = new System.Drawing.Size(551, 31);
+            this.TxtCosto.Size = new System.Drawing.Size(551, 37);
             this.TxtCosto.TabIndex = 19;
+            this.TxtCosto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtCosto_KeyPress);
             // 
             // TxtCantidad
             // 
             this.TxtCantidad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(244)))));
             this.TxtCantidad.Location = new System.Drawing.Point(113, 97);
             this.TxtCantidad.Name = "TxtCantidad";
-            this.TxtCantidad.Size = new System.Drawing.Size(521, 31);
+            this.TxtCantidad.Size = new System.Drawing.Size(521, 37);
             this.TxtCantidad.TabIndex = 18;
+            this.TxtCantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtCantidad_KeyPress);
             // 
             // label3
             // 
@@ -117,7 +119,7 @@
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(252)))), ((int)(((byte)(228)))));
             this.label3.Location = new System.Drawing.Point(3, 176);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(74, 25);
+            this.label3.Size = new System.Drawing.Size(94, 31);
             this.label3.TabIndex = 15;
             this.label3.Text = "Costo:";
             // 
@@ -127,7 +129,7 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(252)))), ((int)(((byte)(228)))));
             this.label2.Location = new System.Drawing.Point(3, 103);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 25);
+            this.label2.Size = new System.Drawing.Size(131, 31);
             this.label2.TabIndex = 14;
             this.label2.Text = "Cantidad:";
             // 
@@ -154,7 +156,7 @@
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(252)))), ((int)(((byte)(228)))));
             this.label4.Location = new System.Drawing.Point(3, 20);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(104, 25);
+            this.label4.Size = new System.Drawing.Size(131, 31);
             this.label4.TabIndex = 12;
             this.label4.Text = "Producto:";
             // 
@@ -165,7 +167,7 @@
             this.CmbProducto.FormattingEnabled = true;
             this.CmbProducto.Location = new System.Drawing.Point(113, 12);
             this.CmbProducto.Name = "CmbProducto";
-            this.CmbProducto.Size = new System.Drawing.Size(521, 33);
+            this.CmbProducto.Size = new System.Drawing.Size(521, 38);
             this.CmbProducto.TabIndex = 11;
             // 
             // BtnSalir
@@ -221,7 +223,7 @@
             // 
             // FrmEntradas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(236)))), ((int)(((byte)(201)))));
             this.ClientSize = new System.Drawing.Size(1450, 800);

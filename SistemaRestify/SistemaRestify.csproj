@@ -88,6 +88,12 @@
     <Compile Include="FrmAgregarProductoMenu.Designer.cs">
       <DependentUpon>FrmAgregarProductoMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmAgregarUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarUsuarios.Designer.cs">
+      <DependentUpon>FrmAgregarUsuarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmCapturarPedido.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -260,6 +266,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmAgregarProductoMenu.resx">
       <DependentUpon>FrmAgregarProductoMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarUsuarios.resx">
+      <DependentUpon>FrmAgregarUsuarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmCapturarPedido.resx">
       <DependentUpon>FrmCapturarPedido.cs</DependentUpon>

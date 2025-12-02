@@ -41,12 +41,12 @@
             this.BtnEliminar = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
+            this.TxtStockMinimo = new System.Windows.Forms.TextBox();
             this.CmbUnidad = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.TxtNamePr = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.TxtStockMinimo = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.DtgProductos)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -81,7 +81,7 @@
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(252)))), ((int)(((byte)(228)))));
             this.label3.Location = new System.Drawing.Point(242, 5);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(185, 25);
+            this.label3.Size = new System.Drawing.Size(234, 31);
             this.label3.TabIndex = 8;
             this.label3.Text = "Nombre Producto:";
             // 
@@ -132,7 +132,7 @@
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(252)))), ((int)(((byte)(228)))));
             this.label6.Location = new System.Drawing.Point(4, 1);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(131, 25);
+            this.label6.Size = new System.Drawing.Size(165, 31);
             this.label6.TabIndex = 15;
             this.label6.Text = "Descripcion:";
             // 
@@ -186,7 +186,7 @@
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(252)))), ((int)(((byte)(228)))));
             this.label4.Location = new System.Drawing.Point(13, 176);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(86, 25);
+            this.label4.Size = new System.Drawing.Size(108, 31);
             this.label4.TabIndex = 9;
             this.label4.Text = "Unidad:";
             // 
@@ -205,6 +205,25 @@
             this.panel2.Size = new System.Drawing.Size(615, 380);
             this.panel2.TabIndex = 14;
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(252)))), ((int)(((byte)(228)))));
+            this.label10.Location = new System.Drawing.Point(13, 228);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(184, 31);
+            this.label10.TabIndex = 26;
+            this.label10.Text = "Stock Minimo:";
+            // 
+            // TxtStockMinimo
+            // 
+            this.TxtStockMinimo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(244)))));
+            this.TxtStockMinimo.Location = new System.Drawing.Point(166, 222);
+            this.TxtStockMinimo.Name = "TxtStockMinimo";
+            this.TxtStockMinimo.Size = new System.Drawing.Size(435, 37);
+            this.TxtStockMinimo.TabIndex = 25;
+            this.TxtStockMinimo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtStockMinimo_KeyPress);
+            // 
             // CmbUnidad
             // 
             this.CmbUnidad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(244)))));
@@ -216,7 +235,7 @@
             "Kilos"});
             this.CmbUnidad.Location = new System.Drawing.Point(105, 168);
             this.CmbUnidad.Name = "CmbUnidad";
-            this.CmbUnidad.Size = new System.Drawing.Size(496, 33);
+            this.CmbUnidad.Size = new System.Drawing.Size(496, 38);
             this.CmbUnidad.TabIndex = 10;
             // 
             // label1
@@ -243,30 +262,12 @@
             this.TxtNamePr.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(244)))));
             this.TxtNamePr.Location = new System.Drawing.Point(1068, 108);
             this.TxtNamePr.Name = "TxtNamePr";
-            this.TxtNamePr.Size = new System.Drawing.Size(212, 31);
+            this.TxtNamePr.Size = new System.Drawing.Size(212, 37);
             this.TxtNamePr.TabIndex = 23;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(252)))), ((int)(((byte)(228)))));
-            this.label10.Location = new System.Drawing.Point(13, 228);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(147, 25);
-            this.label10.TabIndex = 26;
-            this.label10.Text = "Stock Minimo:";
-            // 
-            // TxtStockMinimo
-            // 
-            this.TxtStockMinimo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(244)))));
-            this.TxtStockMinimo.Location = new System.Drawing.Point(166, 222);
-            this.TxtStockMinimo.Name = "TxtStockMinimo";
-            this.TxtStockMinimo.Size = new System.Drawing.Size(435, 31);
-            this.TxtStockMinimo.TabIndex = 25;
             // 
             // FrmInsumos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(236)))), ((int)(((byte)(201)))));
             this.ClientSize = new System.Drawing.Size(1450, 800);

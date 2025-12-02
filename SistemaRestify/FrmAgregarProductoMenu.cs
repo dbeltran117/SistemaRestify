@@ -137,14 +137,36 @@ namespace SistemaRestify
 
         private void DtgProductos_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            BtnGuardar.Enabled = false;
-            TxtCodigo.Enabled = false;
-            TxtCodigo.Text = DtgProductos.SelectedRows[0].Cells["Codigo"].Value.ToString();
-            Convert.ToInt32(DtgProductos.SelectedRows[0].Cells["idProducto"].Value);
-            TxtDesc.Text = DtgProductos.SelectedRows[0].Cells["Producto"].Value.ToString();
-            DtgProductos.SelectedRows[0].Cells["idCategoria"].Value.ToString();
-            TxtPrecio.Text = DtgProductos.SelectedRows[0].Cells["Precio"].Value.ToString();
-            TxtImporte.Text = DtgProductos.SelectedRows[0].Cells["Importe"].Value.ToString();   
+            if (e.RowIndex >= 0)
+            {
+                BtnGuardar.Enabled = false;
+                TxtCodigo.Enabled = false;
+
+                DataGridViewRow fila = DtgProductos.Rows[e.RowIndex];
+
+                TxtCodigo.Text = fila.Cells["Codigo"].Value.ToString();
+                int idProducto = Convert.ToInt32(fila.Cells["idProducto"].Value);
+                TxtDesc.Text = fila.Cells["Producto"].Value.ToString();
+                string idCategoria = fila.Cells["idCategoria"].Value.ToString();
+                TxtPrecio.Text = fila.Cells["Precio"].Value.ToString();
+                TxtImporte.Text = fila.Cells["Importe"].Value.ToString();
+            }
+        }
+
+        private void TxtPrecio_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true; // 🔹 Cancela la entrada
+            }
+        }
+
+        private void TxtImporte_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true; // 🔹 Cancela la entrada
+            }
         }
     }
 }

@@ -89,6 +89,7 @@
             this.TxtCosto.Name = "TxtCosto";
             this.TxtCosto.Size = new System.Drawing.Size(551, 37);
             this.TxtCosto.TabIndex = 19;
+            this.TxtCosto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtCosto_KeyPress);
             // 
             // TxtCantidad
             // 
@@ -97,6 +98,7 @@
             this.TxtCantidad.Name = "TxtCantidad";
             this.TxtCantidad.Size = new System.Drawing.Size(521, 37);
             this.TxtCantidad.TabIndex = 18;
+            this.TxtCantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtCantidad_KeyPress);
             // 
             // label3
             // 

@@ -62,5 +62,13 @@ namespace Manejadores
                 MessageBox.Show("Seleccione un insumo para eliminar", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void TxtStockMinimo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true; // 🔹 Cancela la entrada
+            }
+        }
     }
 }

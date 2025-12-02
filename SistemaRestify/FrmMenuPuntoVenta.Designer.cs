@@ -41,6 +41,7 @@
             this.BtnInsumos = new System.Windows.Forms.Button();
             this.BtnExit = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.BtnAddUser = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -243,12 +244,30 @@
             this.pictureBox1.TabIndex = 17;
             this.pictureBox1.TabStop = false;
             // 
+            // BtnAddUser
+            // 
+            this.BtnAddUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(236)))), ((int)(((byte)(201)))));
+            this.BtnAddUser.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnAddUser.BackgroundImage")));
+            this.BtnAddUser.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.BtnAddUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnAddUser.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.BtnAddUser.Location = new System.Drawing.Point(1255, 636);
+            this.BtnAddUser.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BtnAddUser.Name = "BtnAddUser";
+            this.BtnAddUser.Size = new System.Drawing.Size(183, 153);
+            this.BtnAddUser.TabIndex = 19;
+            this.BtnAddUser.Text = "ASIGNAR USUARIOS";
+            this.BtnAddUser.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnAddUser.UseVisualStyleBackColor = false;
+            this.BtnAddUser.Click += new System.EventHandler(this.BtnAddUser_Click);
+            // 
             // FrmMenuPuntoVenta
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 26F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(236)))), ((int)(((byte)(201)))));
             this.ClientSize = new System.Drawing.Size(1450, 800);
+            this.Controls.Add(this.BtnAddUser);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.BtnExit);
             this.Controls.Add(this.panel2);
@@ -279,5 +298,6 @@
         private System.Windows.Forms.Button BtnExit;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button BtnEntradas;
+        private System.Windows.Forms.Button BtnAddUser;
     }
 }

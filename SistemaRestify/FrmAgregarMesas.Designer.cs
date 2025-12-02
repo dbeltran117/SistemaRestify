@@ -125,8 +125,9 @@
             this.TxtNumMesa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(244)))));
             this.TxtNumMesa.Location = new System.Drawing.Point(164, 24);
             this.TxtNumMesa.Name = "TxtNumMesa";
-            this.TxtNumMesa.Size = new System.Drawing.Size(426, 32);
+            this.TxtNumMesa.Size = new System.Drawing.Size(426, 38);
             this.TxtNumMesa.TabIndex = 18;
+            this.TxtNumMesa.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtNumMesa_KeyPress);
             // 
             // BtnGuardar
             // 
@@ -151,13 +152,13 @@
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(252)))), ((int)(((byte)(228)))));
             this.label4.Location = new System.Drawing.Point(3, 30);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(155, 26);
+            this.label4.Size = new System.Drawing.Size(198, 32);
             this.label4.TabIndex = 9;
             this.label4.Text = "Numero Mesa:";
             // 
             // FrmAgregarMesas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 26F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(236)))), ((int)(((byte)(201)))));
             this.ClientSize = new System.Drawing.Size(1450, 800);

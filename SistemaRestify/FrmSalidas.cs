@@ -98,5 +98,35 @@ namespace SistemaRestify
             FrmVerSalidas fvs = new FrmVerSalidas();
             fvs.ShowDialog();
         }
+
+        private void TxtCantidad_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Permitir dígitos, teclas de control (ej. Backspace) y el punto decimal
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar) && e.KeyChar != '.')
+            {
+                e.Handled = true; // 🔹 Cancela la entrada
+            }
+
+            // Evitar que se escriban múltiples puntos decimales
+            if (e.KeyChar == '.' && (sender as TextBox).Text.Contains("."))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void TxtCosto_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Permitir dígitos, teclas de control (ej. Backspace) y el punto decimal
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar) && e.KeyChar != '.')
+            {
+                e.Handled = true; // 🔹 Cancela la entrada
+            }
+
+            // Evitar que se escriban múltiples puntos decimales
+            if (e.KeyChar == '.' && (sender as TextBox).Text.Contains("."))
+            {
+                e.Handled = true;
+            }
+        }
     }
 }

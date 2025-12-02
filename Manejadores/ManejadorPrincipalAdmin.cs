@@ -15,6 +15,28 @@ namespace Manejadores
     {
         Base b = new Base("localhost", "root", "12345", "restauranteSft", 3306);
 
+        #region Usuarios
+        public void AgregarUsuario(string nombre,string clave,string tipoU)
+        {
+            b.Comando($"call p_insertUsuarios('{nombre}','{clave}','{tipoU}')");
+        }
+
+        public void EliminarUsuario(int id)
+        {
+            b.Comando($"delete from usuarios where idUsuario = {id}");
+        }
+
+        public void MostrarUsuarios(string consulta,DataGridView tabla,string datos)
+        {
+            tabla.Columns.Clear();
+            tabla.DataSource = b.Consultar(consulta, datos).Tables[0];
+            tabla.Columns["idUsuario"].Visible = false;
+            tabla.AutoResizeColumns();
+            tabla.AutoResizeRows();
+        }
+
+        #endregion
+
         #region AgregarProducto
         public void MostrarProdutos(string consulta, DataGridView tabla, string datos)
         {

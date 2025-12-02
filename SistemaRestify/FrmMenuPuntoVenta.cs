@@ -71,5 +71,11 @@ namespace SistemaRestify
             FrmInventario fi = new FrmInventario();
             fi.ShowDialog();
         }
+
+        private void BtnAddUser_Click(object sender, EventArgs e)
+        {
+            FrmAgregarUsuarios fau = new FrmAgregarUsuarios();
+            fau.ShowDialog();
+        }
     }
 }

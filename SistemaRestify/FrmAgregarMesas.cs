@@ -80,5 +80,13 @@ namespace SistemaRestify
         {
             BtnGuardar.Enabled = false;
         }
+
+        private void TxtNumMesa_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true; // 🔹 Cancela la entrada
+            }
+        }
     }
 }
